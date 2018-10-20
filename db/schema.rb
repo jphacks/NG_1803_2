@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181020021719) do
+ActiveRecord::Schema.define(version: 20181020045121) do
 
   create_table "base_docs", force: :cascade do |t|
     t.integer "base_id"
@@ -159,6 +159,59 @@ ActiveRecord::Schema.define(version: 20181020021719) do
 
   create_table "grasses", force: :cascade do |t|
     t.integer "total_amount"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "menu_drinks", force: :cascade do |t|
+    t.integer "drink_id"
+    t.integer "menu_id"
+    t.integer "min_x"
+    t.integer "min_y"
+    t.integer "max_x"
+    t.integer "max_y"
+    t.string "ocr_string"
+    t.string "ocr_language"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["drink_id"], name: "index_menu_drinks_on_drink_id"
+    t.index ["menu_id"], name: "index_menu_drinks_on_menu_id"
+  end
+
+  create_table "menu_image_menu_drinks", force: :cascade do |t|
+    t.integer "menu_image_id"
+    t.integer "menu_drink_id"
+    t.integer "min_x"
+    t.integer "max_x"
+    t.integer "min_y"
+    t.string "min_x_bg"
+    t.string "max_x_bg"
+    t.string "min_y_bg"
+    t.string "max_y_bg"
+    t.boolean "scanable"
+    t.string "ocr_string"
+    t.integer "ocr_language"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["menu_drink_id"], name: "index_menu_image_menu_drinks_on_menu_drink_id"
+    t.index ["menu_image_id"], name: "index_menu_image_menu_drinks_on_menu_image_id"
+  end
+
+  create_table "menu_images", force: :cascade do |t|
+    t.integer "menu_id"
+    t.integer "user_id"
+    t.string "image_url"
+    t.text "row"
+    t.integer "lat"
+    t.integer "lon"
+    t.integer "alt"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["menu_id"], name: "index_menu_images_on_menu_id"
+    t.index ["user_id"], name: "index_menu_images_on_user_id"
+  end
+
+  create_table "menus", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
