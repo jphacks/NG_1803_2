@@ -1,0 +1,10 @@
+﻿id,drink_id,language,name,primary
+1,1,0,マティーニ,true
+2,1,1,Martini,true
+3,1,2,马蒂尼鸡尾酒,true
+4,2,0,スクリュー　ドライバー,true
+5,2,1,Screwdriver,true
+6,2,2,螺丝刀,true
+7,3,0,ザ・プレミアム・モルツ　香るエール,true
+8,3,1,The · Premium · Malts fragrant ale,true
+9,3,2,高级·麦芽香浓,true
