@@ -1,0 +1,631 @@
+﻿"id","drink_id","language","name","primary"
+1,1,0,"オレンジ・ブロッサム",True
+2,1,1,"Orange Blossom",True
+3,2,0,"ギムレット",True
+4,2,1,"Gimlet",True
+5,3,0,"シンガポール・スリング",True
+6,3,1,"Singapore ﾂｷ Sling",True
+7,4,0,"ジン・トニック",True
+8,4,1,"Jin tonic",True
+9,5,0,"トリプル・シトラス・ジントニック",True
+10,5,1,"Triple ﾂｷ Citrus ﾂｷ Gin tonic",True
+11,6,0,"ホワイト・レディ",True
+12,6,1,"White Lady",True
+13,7,0,"マティーニ",True
+14,7,1,"Martini",True
+15,8,0,"ミスティア・マティーニ",True
+16,8,1,"Mistya Martini",True
+17,9,0,"アラウンド・ザ・ワールド",True
+18,9,1,"Around the World",True
+19,10,0,"オータム・リーブス",True
+20,10,1,"Autumn-Reeves",True
+21,11,0,"キッス・イン・ザ・ダーク",True
+22,11,1,"Kiss In The Dark",True
+23,12,0,"ギブソン",True
+24,12,1,"Gibson",True
+25,13,0,"シルバー・ストリーク",True
+26,13,1,"Silver Streak",True
+27,14,0,"ジャングル",True
+28,14,1,"jungle",True
+29,15,0,"ジン・バック",True
+30,15,1,"Jin back",True
+31,16,0,"ジン・フィズ",True
+32,16,1,"Jin ﾂｷ Fizz",True
+33,17,0,"ジンリッキー",True
+34,17,1,"Jin Ricky",True
+35,18,0,"スプリング・オペラ",True
+36,18,1,"Spring ﾂｷ Opera",True
+37,19,0,"タンゴ",True
+38,19,1,"Tango",True
+39,20,0,"チョコレート　ギムレット",True
+40,20,1,"Chocolate Gimlet",True
+41,21,0,"チョコレート　スリング",True
+42,21,1,"Chocolate sling",True
+43,22,0,"２４トニック",True
+44,22,1,"24 tonic",True
+45,23,0,"２４マティーニ",True
+46,23,1,"24 Martini",True
+47,24,0,"トム・コリンズ",True
+48,24,1,"Tom Collins",True
+49,25,0,"パラダイス",True
+50,25,1,"Paradise",True
+51,26,0,"パリジャン",True
+52,26,1,"Parisian",True
+53,27,0,"ピンク・レディ",True
+54,27,1,"Pink Lady",True
+55,28,0,"フレンチ７５",True
+56,28,1,"French 75",True
+57,29,0,"ブルー・ムーン",True
+58,29,1,"blue Moon",True
+59,30,0,"ブロンクス",True
+60,30,1,"Bronx",True
+61,31,0,"プリンセス・メアリー",True
+62,31,1,"Princess Mary",True
+63,32,0,"ミリオン・ダラー",True
+64,32,1,"Million Dollar",True
+65,33,0,"ルシアン",True
+66,33,1,"Lucian",True
+67,34,0,"ロングアイランド・アイスティー",True
+68,34,1,"Long Island ﾂｷ Ice Tea",True
+69,35,0,"エル ドール",True
+70,35,1,"El Dor",True
+71,36,0,"セレブリティーニ",True
+72,36,1,"Celebration",True
+73,37,0,"ソルティ・ドッグ",True
+74,37,1,"Salty Dog",True
+75,38,0,"モスコーミュール",True
+76,38,1,"Moscowur",True
+77,39,0,"ウオツカ・トニック",True
+78,39,1,"Wattska ﾂｷ tonic",True
+79,40,0,"ウオツカ・マティーニ",True
+80,40,1,"Watsuka Martini",True
+81,41,0,"ウオツカ・リッキー",True
+82,41,1,"Wattska ﾂｷ Rickey",True
+83,42,0,"オーロラ",True
+84,42,1,"Aurora",True
+85,43,0,"カイピロスカ",True
+86,43,1,"Kaipirosca",True
+87,44,0,"カミカゼ",True
+88,44,1,"Kamikaze",True
+89,45,0,"キッス・オブ・ファイヤー",True
+90,45,1,"Kids of Fire",True
+91,46,0,"コスモポリタン",True
+92,46,1,"cosmopolitan",True
+93,47,0,"ゴッドマザー",True
+94,47,1,"God Mother",True
+95,48,0,"シーブリーズ",True
+96,48,1,"Sea Breeze",True
+97,49,0,"スクリュー・ドライバー",True
+98,49,1,"screwdriver",True
+99,50,0,"チチ",True
+100,50,1,"Chiti",True
+101,51,0,"チョコティーニ",True
+102,51,1,"Chocotini",True
+103,52,0,"トロイカ",True
+104,52,1,"Troika",True
+105,53,0,"バラライカ",True
+106,53,1,"Balalaika",True
+107,54,0,"ビッグ・アップル",True
+108,54,1,"Big Apple",True
+109,55,0,"ブラック・ルシアン",True
+110,55,1,"Black Lucien",True
+111,56,0,"ブラッディ・ブル",True
+112,56,1,"Bloody bull",True
+113,57,0,"ブラッディ・メアリー",True
+114,57,1,"Bloody Mary",True
+115,58,0,"ブルーラグーン",True
+116,58,1,"Blue Lagoon",True
+117,59,0,"ブル・ショット",True
+118,59,1,"Bull Shot",True
+119,60,0,"ホワイト・ルシアン",True
+120,60,1,"White Lucian",True
+121,61,0,"ミドリマティーニ",True
+122,61,1,"Midoritomini",True
+123,62,0,"メロン・ボール",True
+124,62,1,"Melon ball",True
+125,63,0,"モーツァルト　チョコレート　マティーニ",True
+126,63,1,"Mozart chocolate martini",True
+127,64,0,"雪国",True
+128,64,1,"Snow country",True
+129,65,0,"吉野",True
+130,65,1,"Yoshino",True
+131,66,0,"ルシアン",True
+132,66,1,"Lucian",True
+133,67,0,"ルジェ　アップルティーニ",True
+134,67,1,"Rouge apple Tini",True
+135,68,0,"レッド・バード",True
+136,68,1,"Red Bird",True
+137,69,0,"ロングアイランド・アイスティー",True
+138,69,1,"Long Island ﾂｷ Ice Tea",True
+139,70,0,"マルガリータ",True
+140,70,1,"Margarita",True
+141,71,0,"エル・ディアブロ",True
+142,71,1,"El Diablo",True
+143,72,0,"カシス　ショット",True
+144,72,1,"Cassis shot",True
+145,73,0,"サウザ　ショットガン",True
+146,73,1,"Southern shotgun",True
+147,74,0,"ジキル博士",True
+148,74,1,"Dr. Jekyll",True
+149,75,0,"チョコレート　マルガリータ",True
+150,75,1,"Chocolate Margarita",True
+151,76,0,"テキーラ・サンライズ",True
+152,76,1,"Tequila Sunrise",True
+153,77,0,"テコニック",True
+154,77,1,"TECONIC",True
+155,78,0,"トレス　コスモポリタン",True
+156,78,1,"Tres Cosmopolitan",True
+157,79,0,"トレス　マティーニ",True
+158,79,1,"Tres Martini",True
+159,80,0,"パロマ",True
+160,80,1,"Paloma",True
+161,81,0,"ピニャ・コラーダ",True
+162,81,1,"Pinha Colada",True
+163,82,0,"フローズン・ブルーマルガリータ",True
+164,82,1,"Frozen ﾂｷ Blue Margarita",True
+165,83,0,"フローズン・ストロベリー・マルガリータ",True
+166,83,1,"Frozen ﾂｷ Strawberry ﾂｷ Margarita",True
+167,84,0,"フローズン・ミドリ・マルガリータ",True
+168,84,1,"Frozen ﾂｷ Midori ﾂｷ Margarita",True
+169,85,0,"ブレイブ・ブル",True
+170,85,1,"Brave Bull",True
+171,86,0,"マタドール",True
+172,86,1,"Matador",True
+173,87,0,"ミドリ　ショット",True
+174,87,1,"Midori shot",True
+175,88,0,"モッキンバード",True
+176,88,1,"Mockingbird",True
+177,89,0,"ロングアイランド・アイスティー",True
+178,89,1,"Long Island ﾂｷ Ice Tea",True
+179,90,0,"カクタス・フラワー",True
+180,90,1,"Cactus Flower",True
+181,91,0,"サウザ ファーム サワー オレンジ",True
+182,91,1,"Sauza Farm Sour Orange",True
+183,92,0,"サウザ ファーム サワー きゅうり＆レモン",True
+184,92,1,"Sauza Farm Sour Cucumber &amp; Lemon",True
+185,93,0,"サウザ ファーム サワー グレープフルーツ",True
+186,93,1,"Sauza Farm Sour Grapefruit",True
+187,94,0,"サウザ ファーム サワー トマト",True
+188,94,1,"Sauza Farm Sour Tomato",True
+189,95,0,"サウザ ファーム サワー パクチーライム",True
+190,95,1,"Sauza Farm Sour Pakuti Lime",True
+191,96,0,"サウザ ファーム サワー ライム",True
+192,96,1,"Thousand Farm Sour Lime",True
+193,97,0,"サウザ ファーム サワー レモン",True
+194,97,1,"Sauza Farm Sour lemon",True
+195,98,0,"サウザブルー ギムレット ソーダ",True
+196,98,1,"Sauza Blue Gimlet Soda",True
+197,99,0,"サウザブルー マルガリータ ソーダ",True
+198,99,1,"Sauza Blue Margarita Soda",True
+199,100,0,"サウザブルー　トニック",True
+200,100,1,"Sauza Blue Tonic",True
+201,101,0,"ダイキリ",True
+202,101,1,"Daikiri",True
+203,102,0,"ネバダ",True
+204,102,1,"Nevada",True
+205,103,0,"モヒート",True
+206,103,1,"Mojito",True
+207,104,0,"アンダルシア",True
+208,104,1,"Andalusia",True
+209,105,0,"イスラ・デ・ピノス",True
+210,105,1,"Isra de Pinos",True
+211,106,0,"エックス・ワイ・ジー",True
+212,106,1,"X ﾂｷ Wai ﾂｷ Gee",True
+213,107,0,"エル・プレジデンテ",True
+214,107,1,"El Presidente",True
+215,108,0,"キューバ・リブレ",True
+216,108,1,"Cuba Libre",True
+217,109,0,"グリーン・アイズ",True
+218,109,1,"Green Eyes",True
+219,110,0,"コルコバード",True
+220,110,1,"Corcovado",True
+221,111,0,"スカイ・ダイビング",True
+222,111,1,"sky diving",True
+223,112,0,"スコーピオン",True
+224,112,1,"Scorpion",True
+225,113,0,"チョコ　コラーダ",True
+226,113,1,"Choco Colada",True
+227,114,0,"チョコレート　ダイキリ",True
+228,114,1,"Chocolate daiquiri",True
+229,115,0,"チョコレート　プランターズ　パンチ",True
+230,115,1,"Chocolate planters punch",True
+231,116,0,"チョコレート　モヒート",True
+232,116,1,"Chocolate mojito",True
+233,117,0,"トム・アンド・ジェリー",True
+234,117,1,"Tom and Jerry",True
+235,118,0,"パナマ",True
+236,118,1,"Panama",True
+237,119,0,"ビトウィーン・ザ・シーツ",True
+238,119,1,"Betweens the Sheets",True
+239,120,0,"フローズン・バナナ・ダイキリ",True
+240,120,1,"Frozen ﾂｷ Banana ﾂｷ Daikiri",True
+241,121,0,"ブルー・ハワイ",True
+242,121,1,"Blue ﾂｷ Hawaii",True
+243,122,0,"ホット・バタード・ラム",True
+244,122,1,"Hot Buttered Lamb",True
+245,123,0,"マイアミ",True
+246,123,1,"Miami",True
+247,124,0,"マイタイ",True
+248,124,1,"Mytai",True
+249,125,0,"ロングアイランド・アイスティー",True
+250,125,1,"Long Island ﾂｷ Ice Tea",True
+251,126,0,"カリビアン・ドリーム",True
+252,126,1,"Caribbean / Dream",True
+253,127,0,"ブラック　トルネード　-黒い竜巻-",True
+254,127,1,"Black Tornado - Black Tornado -",True
+255,128,0,"ムーニー・オ・レ",True
+256,128,1,"Mooneyie ale",True
+257,129,0,"エメラルドスプリッツアー",True
+258,129,1,"Emerald Sprit Tour",True
+259,130,0,"カルーア・ミルク",True
+260,130,1,"Kalua and milk",True
+261,131,0,"キール・アンペリアル",True
+262,131,1,"Kiel Imperial",True
+263,132,0,"キール・ロワイヤル",True
+264,132,1,"Kiel Royale",True
+265,133,0,"ストロベリー・ミルク",True
+266,133,1,"Strawberry ﾂｷ Milk",True
+267,134,0,"チャイナブルー",True
+268,134,1,"China Blue",True
+269,135,0,"ティフィン・モヒート",True
+270,135,1,"Tiffin Mojito",True
+271,136,0,"ビター・カルーアミルク",True
+272,136,1,"Bitter Kalua Milk",True
+273,137,0,"ファジー・ネーブル",True
+274,137,1,"Fuzzy Navel",True
+275,138,0,"ホット・カルーア・ミルク",True
+276,138,1,"Hot Kalua Milk",True
+277,139,0,"マリブ リッキー",True
+278,139,1,"Malibu Ricky",True
+279,140,0,"マリブ　コーラ",True
+280,140,1,"Malibu Cola",True
+281,141,0,"マリブサーフ",True
+282,141,1,"Malibu Soushu",True
+283,142,0,"マリブ　パイン",True
+284,142,1,"Malibu Pine",True
+285,143,0,"マリブ・モヒート",True
+286,143,1,"Malibu Mojito",True
+287,144,0,"マンゴヤン　オレンジ",True
+288,144,1,"Mango Yang Orange",True
+289,145,0,"マンゴヤン・モヒート",True
+290,145,1,"Mangojan ﾂｷ mojito",True
+291,146,0,"ミスティア　オン・ザ・ロック",True
+292,146,1,"Misty on the Rock",True
+293,147,0,"ミスティア　ロワイヤル",True
+294,147,1,"Mistyre Royale",True
+295,148,0,"ミスティア・ゴールドスパーク",True
+296,148,1,"Mistya ﾂｷ Gold spark",True
+297,149,0,"ミスティア・ペリエ",True
+298,149,1,"Mistya Perrier",True
+299,150,0,"ミスティア・マティーニ",True
+300,150,1,"Mistya Martini",True
+301,151,0,"ミドリ リッキー",True
+302,151,1,"Midori Rickey",True
+303,152,0,"ミドリ・モヒート",True
+304,152,1,"Midori mojito",True
+305,153,0,"ヨーグリート　オレンジ",True
+306,153,1,"Yogriart Orange",True
+307,154,0,"ルジェ カシス リッキー",True
+308,154,1,"Rugen Cassis Rickey",True
+309,155,0,"ルジェ ペシェ リッキー",True
+310,155,1,"Rouge Peche Ricky",True
+311,156,0,"ルジェ　アップルソーダ",True
+312,156,1,"Rouge apple soda",True
+313,157,0,"ルジェアプリコット　オレンジ",True
+314,157,1,"Ruge apricot orange",True
+315,158,0,"ルジェカシス・オレンジ",True
+316,158,1,"Rudgekasis Orange",True
+317,159,0,"ルジェカシス・グレープフルーツ",True
+318,159,1,"Rudge Cassis ﾂｷ Grapefruit",True
+319,160,0,"ルジェカシス・ソーダ",True
+320,160,1,"Ruzekasis ﾂｷ soda",True
+321,161,0,"ルジェカシス・ティー",True
+322,161,1,"Rudgekasis Tea",True
+323,162,0,"ルジェカシス・ミルク",True
+324,162,1,"Ruzekasis ﾂｷ milk",True
+325,163,0,"ルジェカシス・モヒート",True
+326,163,1,"Rudgekasis mojito",True
+327,164,0,"ルジェカルテット・オレンジ",True
+328,164,1,"Rudge Quartet Orange",True
+329,165,0,"ルジェストロベリーソーダ",True
+330,165,1,"Ruge Strawberry Soda",True
+331,166,0,"ルジェブルーベリーミルク",True
+332,166,1,"Rouge Blueberry Milk",True
+333,167,0,"アップル・カー",True
+334,167,1,"Apple car",True
+335,168,0,"アップル　ロワイヤル",True
+336,168,1,"Apple Royale",True
+337,169,0,"アプリコット・コラーダ",True
+338,169,1,"Apricot ﾂｷ Colada",True
+339,170,0,"アプリコット・フィズ",True
+340,170,1,"Apricot ﾂｷ Fizz",True
+341,171,0,"アプリコット・ロワイヤル",True
+342,171,1,"Apricot ﾂｷ Royale",True
+343,172,0,"アレキサンダー",True
+344,172,1,"Alexander",True
+345,173,0,"イエーガー・オレンジ",True
+346,173,1,"Jaeger Orange",True
+347,174,0,"イエーガー・シューター",True
+348,174,1,"Jaeger ﾂｷ Shooter",True
+349,175,0,"イエーガー・トニック",True
+350,175,1,"Jaeger ﾂｷ Tonic",True
+351,176,0,"イタリアン・サーファー",True
+352,176,1,"Italian surfer",True
+353,177,0,"ウンダーベルク　ソーダ",True
+354,177,1,"Underberg soda",True
+355,178,0,"エックス・ワイ・ジー",True
+356,178,1,"X ﾂｷ Wai ﾂｷ Gee",True
+357,179,0,"エメラルド・ミスト",True
+358,179,1,"Emerald Mist",True
+359,180,0,"オーガズム",True
+360,180,1,"orgasm",True
+361,181,0,"オーロラ",True
+362,181,1,"Aurora",True
+363,182,0,"オリンピック",True
+364,182,1,"Olympic",True
+365,183,0,"カフェ　ショコラ　ミルク",True
+366,183,1,"Cafe Chocolate Milk",True
+367,184,0,"カミカゼ",True
+368,184,1,"Kamikaze",True
+369,185,0,"カルーア・ウーロン",True
+370,185,1,"Karoa ﾂｷ Oolong",True
+371,186,0,"カルーア・オレンジ",True
+372,186,1,"Kalua Orange",True
+373,187,0,"カルーア・コーラ",True
+374,187,1,"Kalua Cola",True
+375,188,0,"カルーア・コラーダ",True
+376,188,1,"Kalua Colada",True
+377,189,0,"カルーア・ソーダ",True
+378,189,1,"Kalua Soda",True
+379,190,0,"カルーア・ベリー",True
+380,190,1,"Kalua Berry",True
+381,191,0,"カルーア・ラテ",True
+382,191,1,"Kalua Latte",True
+383,192,0,"カルーア・リッキー",True
+384,192,1,"Kalua Ricky",True
+385,193,0,"キール",True
+386,193,1,"keel",True
+387,194,0,"キッス・イン・ザ・ダーク",True
+388,194,1,"Kiss In The Dark",True
+389,195,0,"キング・ピーター",True
+390,195,1,"King ﾂｷ Peter",True
+391,196,0,"クールビューティー～清涼美～",True
+392,196,1,"Cool Beauty ~ Refreshing Beauty ~",True
+393,197,0,"グラスホッパー",True
+394,197,1,"Grasshopper",True
+395,198,0,"グリーン・アイズ",True
+396,198,1,"Green Eyes",True
+397,199,0,"コルコバード",True
+398,199,1,"Corcovado",True
+399,200,0,"ゴールデン　アップル",True
+400,200,1,"Golden Apple",True
+401,201,0,"ゴールデン　デイズ",True
+402,201,1,"Golden Days",True
+403,202,0,"サザン・ウィンド～南国からの便り～",True
+404,202,1,"Southern Wind ~ Letters from Tropical South ~",True
+405,203,0,"ストロベリー・ロワイヤル",True
+406,203,1,"Strawberry Royale",True
+407,204,0,"セックス・オン・ザ・ビーチ",True
+408,204,1,"Sex on the Beach",True
+409,205,0,"ダーティー　マザー",True
+410,205,1,"Dirty Mother",True
+411,206,0,"チェリーブロッサム",True
+412,206,1,"Cherry Blossom",True
+413,207,0,"チボリ・スペシャル",True
+414,207,1,"Tivoli ﾂｷ Special",True
+415,208,0,"チョコ　カシスソーダ",True
+416,208,1,"Chocolate cassis soda",True
+417,209,0,"チョコレートサワー",True
+418,209,1,"Chocolate sour",True
+419,210,0,"ティフィン　オレンジ",True
+420,210,1,"Tiffin orange",True
+421,211,0,"ティフィン　カシスティー",True
+422,211,1,"Tiffin Cassis tea",True
+423,212,0,"ティフィン　ミルク",True
+424,212,1,"Tiffin Milk",True
+425,213,0,"ティフィン　レモンソーダ",True
+426,213,1,"Tiffin lemon soda",True
+427,214,0,"トロイカ",True
+428,214,1,"Troika",True
+429,215,0,"ドラマティック　アロマ",True
+430,215,1,"Dramatic aroma",True
+431,216,0,"ドランブイ・オレンジ・シェーク",True
+432,216,1,"Drambui ﾂｷ Orange ﾂｷ Shake",True
+433,217,0,"ドランブイ・トニック",True
+434,217,1,"Drambui ﾂｷ tonic",True
+435,218,0,"バレンシア",True
+436,218,1,"Valencia",True
+437,219,0,"パライソ・オレンジ",True
+438,219,1,"Paraiso ﾂｷ Orange",True
+439,220,0,"パライソ・グレープフルーツ",True
+440,220,1,"Paraiso ﾂｷ Grapefruit",True
+441,221,0,"ヒーリング・トニック",True
+442,221,1,"Healing ﾂｷ tonic",True
+443,222,0,"ビトウィーン・ザ・シーツ",True
+444,222,1,"Betweens the Sheets",True
+445,223,0,"ピーチ　ウーロン",True
+446,223,1,"Peach oolong",True
+447,224,0,"フェアリーランド～おとぎの国～",True
+448,224,1,"Fairyland - The Fairy Tale ~",True
+449,225,0,"ブルー・コラーダ",True
+450,225,1,"Blue Colada",True
+451,226,0,"ブルーベリー・ロワイヤル",True
+452,226,1,"Blueberry Royale",True
+453,227,0,"プルシア　ウィズ　ペリエ",True
+454,227,1,"Prussia with Perrier",True
+455,228,0,"プルシア　ロワイヤル",True
+456,228,1,"Prussia Royale",True
+457,229,0,"ベリー・ベリー・ミルク",True
+458,229,1,"Berry Berry Milk",True
+459,230,0,"ベルベット・ハンマー",True
+460,230,1,"Velvet hammer",True
+461,231,0,"ホット・モーツァルト・ミルク",True
+462,231,1,"Hot Mozart ﾂｷ Milk",True
+463,232,0,"ホワイト・アレキサンダー",True
+464,232,1,"White ﾂｷ Alexander",True
+465,233,0,"ホワイト・チョコ・ミルク",True
+466,233,1,"White ﾂｷ chocolate ﾂｷ milk",True
+467,234,0,"ホワイト・モーツァルト・ミント",True
+468,234,1,"White ﾂｷ Mozart ﾂｷ Mint",True
+469,235,0,"ボッチ・ボール",True
+470,235,1,"Botch ball",True
+471,236,0,"抹茶カルーアミルク",True
+472,236,1,"Matcha Kalua Milk",True
+473,237,0,"マリブ　オレンジ",True
+474,237,1,"Malibu Orange",True
+475,238,0,"マリブ・ピニャ・コラーダ",True
+476,238,1,"Malibu Pinha Colada",True
+477,239,0,"マリブ　ミルク",True
+478,239,1,"Malibu milk",True
+479,240,0,"マンゴヤン　ココパイン",True
+480,240,1,"Mango Yang Cocopain",True
+481,241,0,"マンゴヤン　ミルク",True
+482,241,1,"Mango Yang Milk",True
+483,242,0,"マンゴヤン　ラッシー",True
+484,242,1,"Mango Yan Lassi",True
+485,243,0,"ミドリ　イリュージョン",True
+486,243,1,"Midori Illusion",True
+487,244,0,"ミドリ　コラーダ",True
+488,244,1,"Midori Colada",True
+489,245,0,"ミドリスプモーニ",True
+490,245,1,"Midori Summoni",True
+491,246,0,"ミドリ　スプライス",True
+492,246,1,"Midori Splice",True
+493,247,0,"ミドリ　パッシュ",True
+494,247,1,"Midori Pash",True
+495,248,0,"ミドリミルク",True
+496,248,1,"Midori milk",True
+497,249,0,"ミント・フラッペ",True
+498,249,1,"Mint ﾂｷ Frappe",True
+499,250,0,"モーツァルト　アイスクリーム",True
+500,250,1,"Mozart ice cream",True
+501,251,0,"モーツァルト　チョコレート　フラッペ",True
+502,251,1,"Mozart Chocolate Frappe",True
+503,252,0,"ヨーグリート　ジンジャー",True
+504,252,1,"Yogurito ginger",True
+505,253,0,"ヨーグリート　ソーダ",True
+506,253,1,"Yogriate soda",True
+507,254,0,"ヨーグリート　パイン",True
+508,254,1,"Yogleito Pine",True
+509,255,0,"ヨーグリート　ミルク",True
+510,255,1,"Yogurito milk",True
+511,256,0,"ルジェアップル・ジンジャー",True
+512,256,1,"Rouge apple ginger",True
+513,257,0,"ルジェカシス・ウーロン",True
+514,257,1,"Ruzekasis Oolong",True
+515,258,0,"ルジェカシス・コラーダ",True
+516,258,1,"Ruzekasis ﾂｷ Colada",True
+517,259,0,"ルジェカルテット・ソーダ",True
+518,259,1,"Ruge Quartet Soda",True
+519,260,0,"ルジェストロベリー・コラーダ",True
+520,260,1,"Rugen Strawberry Colada",True
+521,261,0,"ルジェフランボワーズ　グレープフルーツ",True
+522,261,1,"Ruge Flambooise Grapefruit",True
+523,262,0,"ルジェペシェ　ロワイヤル",True
+524,262,1,"Rugepesher Royale",True
+525,263,0,"レッド・ライオン",True
+526,263,1,"Red Lion",True
+527,264,0,"ロイヤル・カルテット",True
+528,264,1,"Royal Quartet",True
+529,265,0,"ロングアイランド・アイスティー",True
+530,265,1,"Long Island ﾂｷ Ice Tea",True
+531,266,0,"アップル　ショコラ",True
+532,266,1,"Apple chocolat",True
+533,267,0,"アレンヌ～風のそよぎ～",True
+534,267,1,"Allenne ~ Wind River",True
+535,268,0,"エル ドール",True
+536,268,1,"El Dor",True
+537,269,0,"カシス ショコラ コン シナモン",True
+538,269,1,"Cassis chocolat Concinamon",True
+539,270,0,"シトラス ショコラ",True
+540,270,1,"Citrus chocolat",True
+541,271,0,"翠響庵（すいきょうあん）",True
+542,271,1,"Tsuyoshian (Suiyo)",True
+543,272,0,"ブラックベリー チョコカルーア",True
+544,272,1,"Blackberry Chocolate Kalua",True
+545,273,0,"プルシアン ブロッサム",True
+546,273,1,"Prussian Blossom",True
+547,274,0,"モーツァルト　カフェモカ",True
+548,274,1,"Mozart Cafe Mocha",True
+549,275,0,"モーツァルト　ショコラミルク",True
+550,275,1,"Mozart Chocolate Milk",True
+551,276,0,"ルジェ　ショコラトル",True
+552,276,1,"Ruge chocolatlet",True
+553,277,0,"アップル・プラン",True
+554,277,1,"Apple plan",True
+555,278,0,"カーディナル",True
+556,278,1,"Cardinal",True
+557,279,0,"キール",True
+558,279,1,"keel",True
+559,280,0,"スプリッツァー",True
+560,280,1,"Splitzer",True
+561,281,0,"ルジェブルーベリースプリッツァー",True
+562,281,1,"Rouge Blueberry Splitzer",True
+563,282,0,"ワイン・クーラー",True
+564,282,1,"Wine ﾂｷ cooler",True
+565,283,0,"レッド・アイ",True
+566,283,1,"Red Eye",True
+567,284,0,"シャンデー・ガフ",True
+568,284,1,"Shandy Gaff",True
+569,285,0,"パナシェ",True
+570,285,1,"Panache",True
+571,286,0,"ブラック・ベルベット",True
+572,286,1,"Black ﾂｷ Velvet",True
+573,287,0,"アイリッシュ・コーヒー",True
+574,287,1,"Irish coffee",True
+575,288,0,"アル・カポネ",True
+576,288,1,"Al Capone",True
+577,289,0,"ウイスキー・クラッシュ",True
+578,289,1,"Whiskey crash",True
+579,290,0,"ウイスキー・ソーダ",True
+580,290,1,"Whiskey ﾂｷ Soda",True
+581,291,0,"ウイスキーフロート",True
+582,291,1,"Whiskey float",True
+583,292,0,"オールド・ファッションド",True
+584,292,1,"Old fashioned",True
+585,293,0,"コットン・フラワー",True
+586,293,1,"Cotton ﾂｷ Flower",True
+587,294,0,"ゴッド・ファーザー",True
+588,294,1,"God Father",True
+589,295,0,"セント・アンドリューズ",True
+590,295,1,"St. Andrews",True
+591,296,0,"チョコレート　ハイボール",True
+592,296,1,"Chocolate highball",True
+593,297,0,"チョコレート　ファッションド",True
+594,297,1,"Chocolate fashion",True
+595,298,0,"チョコレート　マンハッタン",True
+596,298,1,"Chocolate Manhattan",True
+597,299,0,"ドライ・マンハッタン",True
+598,299,1,"Dry Manhattan",True
+599,300,0,"ニューヨーク",True
+600,300,1,"New York",True
+601,301,0,"ハンター",True
+602,301,1,"Hunter",True
+603,302,0,"バーボネラ",True
+604,302,1,"Bourbonera",True
+605,303,0,"マミーテイラー",True
+606,303,1,"Mommy Taylor",True
+607,304,0,"マンハッタン",True
+608,304,1,"Manhattan",True
+609,305,0,"ラスティー・ネール",True
+610,305,1,"Rusty Neel",True
+611,306,0,"ロブ・ロイ",True
+612,306,1,"Rob Roy",True
+613,307,0,"エッグ・ノッグ",True
+614,307,1,"eggnog",True
+615,308,0,"カウボーイ",True
+616,308,1,"cowboy",True
+617,309,0,"ケンタッキー・コーヒー",True
+618,309,1,"Kentucky ﾂｷ Coffee",True
+619,310,0,"玉響（たまゆら）",True
+620,310,1,"Tamayura (Tamayura)",True
+621,311,0,"バーボン・サワー",True
+622,311,1,"Bourbon Sour",True
+623,312,0,"バーボン・バック",True
+624,312,1,"Bourbon back",True
+625,313,0,"ミントジュレップ",True
+626,313,1,"Mint Julep",True
+627,314,0,"メーカーズマークハイボール",True
+628,314,1,"Maker's Mark Highball",True
+629,315,0,"レッド　カトレア",True
+630,315,1,"Red Cattleya",True

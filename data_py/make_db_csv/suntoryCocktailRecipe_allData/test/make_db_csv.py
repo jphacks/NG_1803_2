@@ -105,9 +105,6 @@ def make_db_csv(all_lang_list):
         ja_line = ja_lines[i]
         en_line = en_lines[i]
         zh_line = zh_lines[i]
-        print(ja_line)
-        print(en_line)
-        print(zh_line)
         
         #DrinkName#
         
@@ -117,7 +114,7 @@ def make_db_csv(all_lang_list):
         drink_names = [ja_line["drink_name"], en_line["drink_name"], zh_line["drink_name"]]
         priority = ja_line["priority"]
         for lang in range(3):
-            push_in("DrinkName", drink_id=id_dict["Drink"], language=lang, name=drink_names[lang], primary=priority)
+            push_in("Drinkname", drink_id=id_dict["Drink"], language=lang, name=drink_names[lang], primary=priority)
         
         #DrinkDoc#
 
@@ -160,6 +157,7 @@ def make_db_csv(all_lang_list):
         #CompornentDoc#
 
         push_in("Compornent", min_degree=min_degree, max_degree=max_degree, shop_url="", image_url=image_url)
+
         ingredients = [[
             ja_line["ingredient1"],
             ja_line["ingredient2"],
@@ -196,41 +194,41 @@ def make_db_csv(all_lang_list):
             zh_line["ingredient1"]]
         ]
 
-        amount_numbers = [[ja_line["measure1"],
-            ja_line["measure2"],
-            ja_line["measure3"],
-            ja_line["measure4"],
-            ja_line["measure5"],
-            ja_line["measure6"],
-            ja_line["measure7"],
-            ja_line["measure8"],
-            ja_line["measure9"],
-            ja_line["measure10"]
+        amount_numbers = [[ja_line["mesure1"],
+            ja_line["mesure2"],
+            ja_line["mesure3"],
+            ja_line["mesure4"],
+            ja_line["mesure5"],
+            ja_line["mesure6"],
+            ja_line["mesure7"],
+            ja_line["mesure8"],
+            ja_line["mesure9"],
+            ja_line["mesure10"]
             ],
-            [en_line["measure1"],
-            en_line["measure2"],
-            en_line["measure3"],
-            en_line["measure4"],
-            en_line["measure5"],
-            en_line["measure6"],
-            en_line["measure7"],
-            en_line["measure8"],
-            en_line["measure9"],
-            en_line["measure10"]
+            [en_line["mesure1"],
+            en_line["mesure2"],
+            en_line["mesure3"],
+            en_line["mesure4"],
+            en_line["mesure5"],
+            en_line["mesure6"],
+            en_line["mesure7"],
+            en_line["mesure8"],
+            en_line["mesure9"],
+            en_line["mesure10"]
             ],
-            [zh_line["measure1"],
-            zh_line["measure2"],
-            zh_line["measure3"],
-            zh_line["measure4"],
-            zh_line["measure5"],
-            zh_line["measure6"],
-            zh_line["measure7"],
-            zh_line["measure8"],
-            zh_line["measure9"],
-            zh_line["measure10"],
-            zh_line["measure1"]]
+            [zh_line["mesure1"],
+            zh_line["mesure2"],
+            zh_line["mesure3"],
+            zh_line["mesure4"],
+            zh_line["mesure5"],
+            zh_line["mesure6"],
+            zh_line["mesure7"],
+            zh_line["mesure8"],
+            zh_line["mesure9"],
+            zh_line["mesure10"],
+            zh_line["mesure1"]]
         ]
-        measure_numbers = []
+        mesure_numbers = []
         for j in range(1, 11):
             if not (exec("(ja_line['ingredient{}'])".format(j))):
                 ingredients = [ingredients[0][:j-1], ingredients[1][:j-1], ingredients[2][j-1]]
@@ -353,16 +351,16 @@ def make_db_csv(all_lang_list):
         "Base": Base,
         "BaseDoc": BaseDoc
     }
-    # print('-----CSVファイルとして出力-----')
-    # for key, value in result.items():
-    #     with open('db_csv/{}.csv'.format(key), 'w', newline='', encoding='utf_8_sig') as f:
-    #         # dialectの登録
-    #         csv.register_dialect('dialect01', doublequote=True, quoting=csv.QUOTE_ALL)
-    #         # DictWriter作成
-    #         writer = csv.DictWriter(f, fieldnames=value[0].keys(), dialect='dialect01')
-    #         # CSVへの書き込み
-    #         writer.writeheader()
-    #         for v in value:
-    #             writer.writerow(v)
+    print('-----CSVファイルとして出力-----')
+    for key, value in result.items():
+        with open('db_csv/{}.csv'.format(key), 'w', newline='', encoding='utf_8_sig') as f:
+            # dialectの登録
+            csv.register_dialect('dialect01', doublequote=True, quoting=csv.QUOTE_ALL)
+            # DictWriter作成
+            writer = csv.DictWriter(f, fieldnames=value[0].keys(), dialect='dialect01')
+            # CSVへの書き込み
+            writer.writeheader()
+            for v in value:
+                writer.writerow(v)
 
 
