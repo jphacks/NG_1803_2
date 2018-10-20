@@ -1,0 +1,3 @@
+1.original_data.pyで元データをスクレイピング
+2.format_data.pyでdbの形式に変更
+3.translation_data.pyで多言語対応
