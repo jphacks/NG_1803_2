@@ -13,6 +13,12 @@ class MenuImagesController < ApplicationController
       fp.write uploaded_file.read
     end
 
+    fp = File.open(image_path, 'r')
+    res = GoogleVisionAPI.ocr_menu(fp.read)
+    fp.close
+
+    puts res
+
     render json: {
       menu_items_menu_drinks: [
         {
