@@ -1,4 +1,17 @@
 class MenuImagesController < ApplicationController
+  def new
+    res = ""
+    image_path = Rails.root.join('public/menu_images', '_20181020_130456.JPG')
+
+    File.open(image_path, 'r') do |fp|
+      res = GoogleVisionAPI.ocr_menu(fp.read)
+    end
+
+    puts res
+
+    render json: res
+
+  end
   def create
 
     # アップデートしたファイル
