@@ -6,9 +6,9 @@ class Drink < ApplicationRecord
   has_many :drink_techniques
 
   belongs_to :drink_taste
-  belongs_to :grass
+  belongs_to :grass, optional: true
   belongs_to :category
   belongs_to :source
   belongs_to :base
-  belongs_to :drink_technique
+  belongs_to :drink_technique, optional: true
 end
