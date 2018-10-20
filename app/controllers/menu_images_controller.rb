@@ -13,9 +13,11 @@ class MenuImagesController < ApplicationController
       fp.write uploaded_file.read
     end
 
-    fp = File.open(image_path, 'r')
-    res = GoogleVisionAPI.ocr_menu(fp.read)
-    fp.close
+    # ファイルを開いてOCRを行う
+    res = ""
+    File.open(image_path, 'r') do |fp|
+      res = GoogleVisionAPI.ocr_menu(fp.read)
+    end
 
     puts res
 

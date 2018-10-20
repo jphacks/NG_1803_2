@@ -28,6 +28,8 @@ class GoogleVisionAPI
     request = Net::HTTP::Post.new(uri.request_uri)
     request["Content-Type"] = "application/json"
 
+    res = https.request(request, body).body
+
     return JSON.parse(https.request(request, body).body)
   end
 
