@@ -94,7 +94,7 @@ class MenuDrinksController < ApplicationController
             image_url: compornent.image_url,
             name: compornent_doc.name,
             description: compornent_doc.description,
-            amount_number: drink_compornent.amount_number,
+            amount_number: drink_compornent.amount_number.to_f,
             amount_string: amount_string
           }
         }
