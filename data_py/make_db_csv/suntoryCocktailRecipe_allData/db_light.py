@@ -16,14 +16,19 @@ import json
 # JSON ファイルの読み込みi
 # for _ in range(3):
 #     a = csv.DictReader(open(['format_data/suntoryCocktailRecipe_formatData_ja.csv', 'translation_data/suntoryCocktailRecipe_translationData_en.csv', 'translation_data/suntoryCocktailRecipe_translationData_zh.csv'][_], encoding="utf-8-sig"), delimiter=',')
+
+
 for _ in range(3):
-    with open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_], encoding="utf-8-sig") as f:
-        ff = json.load(f)
-        all_lang_list += [ff]
+    f = open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_], 'r', errors="ignore")
+    # with open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_],encoding="utf-8-sig") as f:
+    ff = json.load(f)
+    #ff = json.load(f)
+    all_lang_list += [ff]
 
 id_dict = {
     "Drink": 0,
     "DrinkCompornent": 0,
+    "DrinkCompornentDoc": 0,
     "Compornent": 0,
     "CompornentDoc": 0,
     "DrinkName": 0,
@@ -151,7 +156,7 @@ def make_db_csv(all_lang_list):
         companies = [ja_line["company"], en_line["company"], zh_line["company"]]
 
         for lang in range(3):
-            push_in(Drink, "Drink", drink_id=id_dict["Drink"], language=lang, description=descriptions[lang],
+            push_in(DrinkDoc, "DrinkDoc", drink_id=id_dict["Drink"], language=lang, description=descriptions[lang],
                     recipe=method_details[lang], color=colors[lang], location=places[lang], company=companies[lang])
 
         # Drink#1
@@ -178,7 +183,7 @@ def make_db_csv(all_lang_list):
 
         push_in(Compornent,"Compornent", min_degree=min_degree, max_degree=max_degree, shop_url="", image_url=image_url)
 
-        ingredients = [[ja_line["ingredient1"],
+        _ingredients = [[ja_line["ingredient1"],
             ja_line["ingredient2"],
             ja_line["ingredient3"],
             ja_line["ingredient4"],
@@ -207,11 +212,10 @@ def make_db_csv(all_lang_list):
             zh_line["ingredient7"],
             zh_line["ingredient8"],
             zh_line["ingredient9"],
-            zh_line["ingredient10"],
-            zh_line["ingredient1"]]
-        ]
+            zh_line["ingredient10"]
+        ]]
 
-        amount_numbers = [[ja_line["measure1"],
+        _amount_numbers = [[ja_line["measure1"],
                            ja_line["measure2"],
                            ja_line["measure3"],
                            ja_line["measure4"],
@@ -233,24 +237,31 @@ def make_db_csv(all_lang_list):
                            en_line["measure9"],
                            en_line["measure10"]
                            ],
-                          [zh_line["measure1"],
-                           zh_line["measure2"],
-                           zh_line["measure3"],
-                           zh_line["measure4"],
-                           zh_line["measure5"],
-                           zh_line["measure6"],
-                           zh_line["measure7"],
-                           zh_line["measure8"],
-                           zh_line["measure9"],
-                           zh_line["measure10"],
-                           zh_line["measure1"]]
-                          ]
-
+                           [zh_line["measure1"],
+                            zh_line["measure2"],
+                            zh_line["measure3"],
+                            zh_line["measure4"],
+                            zh_line["measure5"],
+                            zh_line["measure6"],
+                            zh_line["measure7"],
+                            zh_line["measure8"],
+                            zh_line["measure9"],
+                            zh_line["measure10"]
+                            ]]
+        ingredients = []
+        amount_numbers = []
         for j in range(1, 11):
-            if not (exec("(ja_line['ingredient{}'])".format(j))):
-                ingredients = [ingredients[0][:j - 1], ingredients[1][:j - 1], ingredients[2][j - 1]]
-                amount_numbers = [amount_numbers[0][:j - 1], amount_numbers[1][:j - 1], amount_numbers[2][:j - 1]]
+            if (_ingredients[0][j-1] == ""):
+                print(str(j)+": ", end="")
+                print(_ingredients)
+                ingredients = [_ingredients[0][:j - 1], _ingredients[1][:j - 1], _ingredients[2][:j - 1]]
+                amount_numbers = [_amount_numbers[0][:j - 1], _amount_numbers[1][:j - 1],  _amount_numbers[2][:j - 1]]
                 break
+        else:
+            ingredients = [_ingredients[0], _ingredients[1], _ingredients[2]]
+            amount_numbers = [_amount_numbers[0], _amount_numbers[1], _amount_numbers[2]]
+            break
+
 
         for num, ingredient in enumerate(ingredients[0]):
             if not (ingredient in list(ingredients_db.keys())):
@@ -382,9 +393,9 @@ def make_db_csv(all_lang_list):
             try:
                 csvwriter.writerow(list(value[0].keys()))
                 print("ok")
-                print(list(result.values()))
             except:
-                print(list(result.values()))
+                print(key)
+                print(list(value))
             for v in value:
                 csvwriter.writerow(list(v.values()))
             # # dialectの登録

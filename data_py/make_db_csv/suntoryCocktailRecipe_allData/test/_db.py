@@ -351,11 +351,12 @@ json_dict = format_data_list
 
 # 言語設定
 pre_language = 'ja'
-post_language = 'en'
+#post_language = 'en'
 # post_language = 'en'
 
 for lang in ['en', 'zh']:
-    all_lang_list = translate_data(all_lang_list, post_language=lang)
+    post_language = lang
+    all_lang_list = translate_data(all_lang_list, post_language=post_language)
 
 
 id_dict = {
@@ -719,8 +720,8 @@ def make_db_csv(all_lang_list):
             try:
                 csvwriter.writerow(list(value[0].keys()))
                 print("ok")
-                print(list(result.values()))
             except:
+                print(key)
                 print(list(result.values()))
             for v in value:
                 csvwriter.writerow(list(v.values()))
