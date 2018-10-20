@@ -35,15 +35,18 @@ class GoogleVisionAPI
     res = self.google_vision_api(image_file)
     p res
 
+    width = res['responses'][0]['fullTextAnnotation']['pages'][0]['property']['width']
+    height = res['responses'][0]['fullTextAnnotation']['pages'][0]['property']['height']
+
 # OCRの出力結果から，結果を取り出して整形
     blocks = res['responses'][0]['textAnnotations'].slice(1..-1)
     ocr_words = []
     blocks.each do |block|
       text = block['description']
-      min_x = block['boundingPoly']['vertices'].map{|point| point['x']}.min
-      min_y = block['boundingPoly']['vertices'].map{|point| point['y']}.min
-      max_x = block['boundingPoly']['vertices'].map{|point| point['x']}.max
-      max_y = block['boundingPoly']['vertices'].map{|point| point['y']}.max
+      min_x = block['boundingPoly']['vertices'].map{|point| point['x'] ? point['x']: 0}.min
+      min_y = block['boundingPoly']['vertices'].map{|point| point['y'] ? point['y']: 0}.min
+      max_x = block['boundingPoly']['vertices'].map{|point| point['x'] ? point['x']: width}.max
+      max_y = block['boundingPoly']['vertices'].map{|point| point['y'] ? point['y']: height}.max
       ave_x = (min_x + max_x)/2.0
       ave_y = (min_y + max_y)/2.0
       font_size = [(max_x - min_x), (max_y - min_y)].min
