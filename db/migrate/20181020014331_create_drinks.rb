@@ -10,6 +10,7 @@ class CreateDrinks < ActiveRecord::Migration[5.1]
       t.references :category
       t.references :source
       t.references :base
+      t.references :drink_technique
 
       t.timestamps
     end

@@ -10,4 +10,5 @@ class Drink < ApplicationRecord
   belongs_to :category
   belongs_to :source
   belongs_to :base
+  belongs_to :drink_technique
 end

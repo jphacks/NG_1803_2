@@ -81,6 +81,9 @@ unless BaseDoc.find_by(id: 1)
                   description: "強いお酒だよ"
   )
 end
+unless DrinkTechnique.find_by(id: 1)
+  DrinkTechnique.create!(id: 1)
+end
 unless Drink.find_by(id: 1)
   Drink.create!(id: 1,
                 drink_taste_id: 1,
@@ -91,7 +94,8 @@ unless Drink.find_by(id: 1)
                 grass_id: 1,
                 category_id: 1,
                 source_id: 1,
-                base_id: 1
+                base_id: 1,
+                drink_technique_id: 1
   )
 end
 unless DrinkName.find_by(id: 1)
@@ -121,11 +125,11 @@ unless DrinkDoc.find_by(id: 1)
   )
 
 end
-unless DrinkTechnique.find_by(id: 1)
-  DrinkTechnique.create!(id: 1,
-                         drink_id: 1,
-                         language: 0,
-                         name: "シェイク",
-                         description: "ふります"
+unless DrinkTechniqueDoc.find_by(id: 1)
+  DrinkTechniqueDoc.create!(id: 1,
+                            drink_technique_id: 1,
+                            language: 0,
+                            name: "シェイク",
+                            description: "ふります"
   )
 end
