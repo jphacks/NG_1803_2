@@ -21,3 +21,5 @@
 
 .DS_Store
 .idea/
+
+public/menu_images/*.jpg

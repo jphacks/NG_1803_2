@@ -1,3 +1,4 @@
 class DrinkTechnique < ApplicationRecord
-  belongs_to :drink
+  has_many :drink_technique_docs
+  has_many :drinks
 end

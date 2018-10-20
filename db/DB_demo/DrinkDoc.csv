@@ -1,0 +1,10 @@
+﻿id,drink_id,language,description,recipe,color,location,company
+1,1,0,,ステアして、カクテル・グラスに注ぐ。オリーブを飾る。,透明,,
+2,1,1,,Steer and pour into a cocktail glass. Decorate olives.,Transparent,,
+3,1,2,,Pour into the tumbler with ice and gently stir.,透明,,
+4,2,0,,氷を入れたタンブラーに注ぎ、軽くかき混ぜる。,オレンジ,,
+5,2,1,,转向并倒入鸡尾酒杯。装饰橄榄。,Orange,,
+6,2,2,,用冰倒入滚筒，轻轻搅拌。,橙,,
+7,3,0,,,ゴールド,日本,サントリー
+8,3,1,,,Gold,Japan,Suntory
+9,3,2,,,金,日本,三得利

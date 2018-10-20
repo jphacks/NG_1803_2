@@ -3,10 +3,10 @@ class CreateMenuImageMenuDrinks < ActiveRecord::Migration[5.1]
     create_table :menu_image_menu_drinks do |t|
       t.references :menu_image
       t.references :menu_drink
-      t.integer :min_x
-      t.integer :max_x
-      t.integer :min_y
-      t.integer :min_y
+      t.decimal :min_x
+      t.decimal :max_x
+      t.decimal :min_y
+      t.decimal :min_y
 
       t.string :min_x_bg
       t.string :max_x_bg

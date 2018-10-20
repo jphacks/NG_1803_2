@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181020045121) do
+ActiveRecord::Schema.define(version: 20181020085917) do
 
   create_table "base_docs", force: :cascade do |t|
     t.integer "base_id"
@@ -74,7 +74,7 @@ ActiveRecord::Schema.define(version: 20181020045121) do
   create_table "drink_compornents", force: :cascade do |t|
     t.integer "drink_id"
     t.integer "compornent_id"
-    t.integer "amount_number"
+    t.decimal "amount_number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["compornent_id"], name: "index_drink_compornents_on_compornent_id"
@@ -118,14 +118,19 @@ ActiveRecord::Schema.define(version: 20181020045121) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "drink_techniques", force: :cascade do |t|
-    t.integer "drink_id"
+  create_table "drink_technique_docs", force: :cascade do |t|
+    t.integer "drink_technique_id"
     t.integer "language"
     t.string "name"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["drink_id"], name: "index_drink_techniques_on_drink_id"
+    t.index ["drink_technique_id"], name: "index_drink_technique_docs_on_drink_technique_id"
+  end
+
+  create_table "drink_techniques", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "drinks", force: :cascade do |t|
@@ -138,11 +143,13 @@ ActiveRecord::Schema.define(version: 20181020045121) do
     t.integer "category_id"
     t.integer "source_id"
     t.integer "base_id"
+    t.integer "drink_technique_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["base_id"], name: "index_drinks_on_base_id"
     t.index ["category_id"], name: "index_drinks_on_category_id"
     t.index ["drink_taste_id"], name: "index_drinks_on_drink_taste_id"
+    t.index ["drink_technique_id"], name: "index_drinks_on_drink_technique_id"
     t.index ["grass_id"], name: "index_drinks_on_grass_id"
     t.index ["source_id"], name: "index_drinks_on_source_id"
   end
@@ -166,10 +173,10 @@ ActiveRecord::Schema.define(version: 20181020045121) do
   create_table "menu_drinks", force: :cascade do |t|
     t.integer "drink_id"
     t.integer "menu_id"
-    t.integer "min_x"
-    t.integer "min_y"
-    t.integer "max_x"
-    t.integer "max_y"
+    t.decimal "min_x"
+    t.decimal "min_y"
+    t.decimal "max_x"
+    t.decimal "max_y"
     t.string "ocr_string"
     t.string "ocr_language"
     t.datetime "created_at", null: false
@@ -181,9 +188,9 @@ ActiveRecord::Schema.define(version: 20181020045121) do
   create_table "menu_image_menu_drinks", force: :cascade do |t|
     t.integer "menu_image_id"
     t.integer "menu_drink_id"
-    t.integer "min_x"
-    t.integer "max_x"
-    t.integer "min_y"
+    t.decimal "min_x"
+    t.decimal "max_x"
+    t.decimal "min_y"
     t.string "min_x_bg"
     t.string "max_x_bg"
     t.string "min_y_bg"

@@ -3,7 +3,7 @@ class CreateDrinkCompornents < ActiveRecord::Migration[5.1]
     create_table :drink_compornents do |t|
       t.references :drink
       t.references :compornent
-      t.integer :amount_number
+      t.decimal :amount_number
 
       t.timestamps
     end

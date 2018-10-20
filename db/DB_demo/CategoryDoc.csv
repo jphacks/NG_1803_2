@@ -1,0 +1,7 @@
+﻿id,category_id,language,name
+1,1,0,カクテル
+2,1,1,Cocktail
+3,1,2,鸡尾酒
+4,2,0,ビール
+5,2,1,Beer
+6,2,2,啤酒

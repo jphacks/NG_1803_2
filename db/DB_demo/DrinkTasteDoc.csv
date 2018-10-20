@@ -1,0 +1,10 @@
+﻿id,drink_taste_id,language,taste
+1,1,0,辛口
+2,1,1,spicy
+3,1,2,干
+4,2,0,中甘辛口
+5,2,1,Medium sweet mouth
+6,2,2,中度甜口
+7,3,0,芳醇旨口
+8,3,1,Mellow effect opening
+9,3,2,口效应
