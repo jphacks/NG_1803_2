@@ -18,12 +18,16 @@ import json
 #     a = csv.DictReader(open(['format_data/suntoryCocktailRecipe_formatData_ja.csv', 'translation_data/suntoryCocktailRecipe_translationData_en.csv', 'translation_data/suntoryCocktailRecipe_translationData_zh.csv'][_], encoding="utf-8-sig"), delimiter=',')
 
 
-for _ in range(3):
-    f = open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_], 'r', errors="ignore")
-    # with open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_],encoding="utf-8-sig") as f:
-    ff = json.load(f)
-    #ff = json.load(f)
-    all_lang_list += [ff]
+for path_num in range(3):
+    # f = open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_], 'r', encoding="utf-8_sig", errors="ignore")
+    if (path_num == 0):
+        f = open('format_data/suntoryCocktailRecipe_formatData_ja.json', 'r')
+    else:
+        f = open(['translation_data/suntoryCocktailRecipe_translationData_en.json',
+                  'translation_data/suntoryCocktailRecipe_translationData_zh.json'][path_num-1], 'r', encoding="utf-8_sig",
+                 errors="ignore")
+    json_data = json.load(f)
+    all_lang_list += [json_data]
 
 id_dict = {
     "Drink": 0,
@@ -389,7 +393,7 @@ def make_db_csv(all_lang_list):
 
     print('-----CSVファイルとして出力-----')
     for key, value in result.items():
-        with open('db_csv/{}.csv'.format(key), 'w', newline='', encoding='utf_8_sig') as f:
+        with open('db_csv/{}.csv'.format(key), 'w', newline='', encoding='utf-8_sig') as f:
             csvwriter = csv.writer(f, delimiter=',')
             try:
                 csvwriter.writerow(list(value[0].keys()))
