@@ -27,12 +27,24 @@ class MenuImagesController < ApplicationController
     end
 
     # ファイルを開いてOCRを行う
-    res = ""
+    items = []
     File.open(image_path, 'r') do |fp|
-      res = GoogleVisionAPI.ocr_menu(fp.read)
+      items = GoogleVisionAPI.ocr_menu(fp.read)
     end
 
-    puts res
+    p items
+
+    menu_items_menu_drinks = []
+
+    # Ruimojiデータの取得
+    ruimoji = Ruimoji.new
+    ruimoji.build_from_file('./ruimoji.data')
+
+    items.each do |item|
+      # 各テキストで，曖昧検索を行う
+    end
+
+
 
     render json: {
       menu_items_menu_drinks: [
