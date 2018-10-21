@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import urllib.parse
 
 # JSON ファイルの読み込み
-f = open('format_data/suntoryCocktailRecipe_formatData_ja.json', 'r', encoding='UTF-8')
+f = open('adjust_format_data/go7.json', 'r', encoding='utf-8_sig')
 json_dict = json.load(f)
 f.close()
 print(json_dict)
@@ -23,7 +23,7 @@ post_language = 'zh'
 # 翻訳のデータ入力と保存用
 # pre_language_data_list = []     # 翻訳の辞書がまだないとき
 # post_language_data_list = []    # 翻訳の辞書がまだないとき
-f = open('translation_data_list/suntoryCocktailRecipe_translationDatList_ja_zh_201810131154.json', 'r',
+f = open('translation_data_list/suntoryCocktailRecipe_translationDatList_ja_zh_201810211232.json', 'r',
          encoding='utf_8_sig')
 language_data_list_dict = json.load(f)
 pre_language_data_list = list(language_data_list_dict.keys())
@@ -91,7 +91,8 @@ def output_csv_simple(common_file_name, json_data):
 
 # 無料で翻訳可能
 def how_to_translate(pre_text):
-    url = "https://script.google.com/macros/s/AKfycbwG1qRfk6TqJoAieH8o2S8DYDFb1zjZ1mYi2vAEV8QoavkAVWc/exec"
+    # url = "https://script.google.com/macros/s/AKfycbwG1qRfk6TqJoAieH8o2S8DYDFb1zjZ1mYi2vAEV8QoavkAVWc/exec"
+    url = "https://script.google.com/macros/s/AKfycbweJFfBqKUs5gGNnkV2xwTZtZPptI6ebEhcCU2_JvOmHwM2TCk/exec"
 
     query = {
         'text': pre_text,
@@ -118,6 +119,7 @@ def how_to_translate(pre_text):
                 print("######################################")
                 break
     return post_text
+
 
 
 #########################################################################
@@ -213,6 +215,6 @@ for i in range(len(json_dict)):
 sleep(2)
 
 # データベースの出力
-name = 'translation_data/suntoryCocktailRecipe_translationData_' + post_language
+name = 'translation_data_201810211227/suntoryCocktailRecipe_translationData_' + post_language
 output_json(name, translation_data_list)
 output_csv(name, translation_data_list)
