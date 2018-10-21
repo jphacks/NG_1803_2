@@ -43,8 +43,10 @@ class GoogleVisionAPI
       return nil
     end
 
-    width = res['responses'][0]['fullTextAnnotation']['pages'][0]['property']['width']
-    height = res['responses'][0]['fullTextAnnotation']['pages'][0]['property']['height']
+    width = res['responses'][0]['fullTextAnnotation']['pages'][0]['width']
+    height = res['responses'][0]['fullTextAnnotation']['pages'][0]['height']
+
+    p [width, height]
 
 # OCRの出力結果から，結果を取り出して整形
     blocks = res['responses'][0]['textAnnotations'].slice(1..-1)
@@ -157,6 +159,13 @@ class GoogleVisionAPI
         i -= 1
       end
       if connected == false
+        # デモ用精度上げ
+        origin[:text] = origin[:text].gsub(/(・|·|•)/, "")
+
+        origin[:left] = origin[:left] / width.to_f
+        origin[:right] = origin[:right] / width.to_f
+        origin[:top] = origin[:top] / height.to_f
+        origin[:bottom] = origin[:bottom] / height.to_f
         words << origin
       end
     end
