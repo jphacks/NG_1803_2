@@ -30,12 +30,18 @@ class GoogleVisionAPI
 
     res = https.request(request, body).body
 
-    return JSON.parse(https.request(request, body).body)
+    puts res
+
+    return JSON.parse(res)
   end
 
   def self.ocr_menu(image_file)
     res = self.google_vision_api(image_file)
     p res
+
+    if res['responses'][0]['fullTextAnnotation'].nil? || res['responses'][0]['textAnnotations'].nil?
+      return nil
+    end
 
     width = res['responses'][0]['fullTextAnnotation']['pages'][0]['property']['width']
     height = res['responses'][0]['fullTextAnnotation']['pages'][0]['property']['height']
