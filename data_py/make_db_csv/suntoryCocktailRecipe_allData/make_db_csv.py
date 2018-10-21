@@ -355,12 +355,10 @@ def make_db_csv(all_lang_list):
     for key, value in result.items():
         with open('db_csv/{}.csv'.format(key), 'w', newline='', encoding='utf_8_sig') as f:
             # dialectの登録
-            csv.register_dialect('dialect01', doublequote=True, quoting=csv.QUOTE_ALL)
+            csv.register_dialect('dialect01')
             # DictWriter作成
             writer = csv.DictWriter(f, fieldnames=value[0].keys(), dialect='dialect01')
             # CSVへの書き込み
             writer.writeheader()
             for v in value:
                 writer.writerow(v)
-
-

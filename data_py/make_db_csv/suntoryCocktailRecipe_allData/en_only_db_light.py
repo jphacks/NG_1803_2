@@ -365,7 +365,7 @@ def make_db_csv(all_lang_list):
     print('-----CSVファイルとして出力-----')
     for key, value in result.items():
         with open('db_csv/{}.csv'.format(key), 'w', newline='', encoding='utf_8_sig') as f:
-            csvwriter = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_NONNUMERIC)
+            csvwriter = csv.writer(f, delimiter=',')
             try:
                 csvwriter.writerow(list(value[0].keys()))
                 print("ok")
