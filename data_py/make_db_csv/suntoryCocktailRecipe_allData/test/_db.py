@@ -696,6 +696,7 @@ def make_db_csv(all_lang_list):
     result = {
         "Drink": Drink,
         "DrinkCompornent": DrinkCompornent,
+        "DrinkCompornentDoc": DrinkCompornentDoc,
         "Compornent": Compornent,
         "CompornentDoc": CompornentDoc,
         "DrinkName": DrinkName,
