@@ -276,10 +276,9 @@ def make_db_csv(all_lang_list):
                 push_in(CompornentDoc, "CompornentDoc", compornent_id=ingredients_db[ingredient], language=lang,
                         name=ingredients[lang][num], description="")
             if (type(amount_numbers[0][num]) == str):
-                push_in(DrinkCompornent, "DrinkCompornent", drink_id=id_dict["Drink"], compornent_id=compornent_id, amount_number=0)
+                push_in(DrinkCompornent, "DrinkCompornent", drink_id=id_dict["Drink"], compornent_id=ingredients_db[ingredient], amount_number=0)
                 for lang in range(3):
-                    push_in(DrinkCompornentDoc, "DrinkCompornentDoc", drink_compornent_id=id_dict["DrinkCompornent"], language=lang,
-                            amount_string=amount_numbers[lang][num])
+                    push_in(DrinkCompornentDoc, "DrinkCompornentDoc", drink_compornent_id=id_dict["DrinkCompornent"], language=lang, amount_string=amount_numbers[lang][num])
             else:
                 #チェック
                 push_in(DrinkCompornent, "DrinkCompornent", drink_id=id_dict["Drink"], compornent_id=compornent_id,
