@@ -21,10 +21,10 @@ import json
 for path_num in range(3):
     # f = open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_], 'r', encoding="utf-8_sig", errors="ignore")
     if (path_num == 0):
-        f = open('format_data/suntoryCocktailRecipe_formatData_ja.json', 'r')
+        f = open('outputdata201810241442/suntoryCocktailRecipe_translationData_ja.json', 'r', encoding="utf-8_sig")
     else:
-        f = open(['translation_data/suntoryCocktailRecipe_translationData_en.json',
-                  'translation_data/suntoryCocktailRecipe_translationData_zh.json'][path_num-1], 'r', encoding="utf-8_sig",
+        f = open(['outputdata201810241442/suntoryCocktailRecipe_translationData_en.json',
+                  'outputdata201810241442/suntoryCocktailRecipe_translationData_zh.json'][path_num-1], 'r', encoding="utf-8_sig",
                  errors="ignore")
     json_data = json.load(f)
     all_lang_list += [json_data]
