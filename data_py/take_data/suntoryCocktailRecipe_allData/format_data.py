@@ -40,7 +40,7 @@ for i in range(len(json_dict)):
         "priority": True,
         "drink_name": data["name_JP"],
         "alcoholic": "Alcohol",
-        "cocktail_or_not": True,
+        "cocktail_or_not": True,    # 0,1（0原液、1カクテル：これはview_typeに対応する）にすべき
         "category": "カクテル",
         "base": data["base"],
         "place": '',
