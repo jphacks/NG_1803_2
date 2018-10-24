@@ -18,13 +18,13 @@ pre_data_json = "adjust_format_data/お酒データ追加あり201810241333.json
 
 # 言語設定
 pre_language = 'ja'
-post_language = 'zh'
+post_language = 'en'
 
 # 翻訳した言葉の一覧をjsonファイルに保存して、今後の翻訳速度を速めるのに使う
-translation_data_list_json = 'translation_data_list/suntoryCocktailRecipe_translationDatList_ja_zh_201810211232.json'
+translation_data_list_json = 'translation_data_list/suntoryCocktailRecipe_translationDatList_ja_en_201810241430.json'
 
 # 翻訳結果の出力ファルダ作成
-output_folder_name = "translation_data_201810241431/" + post_language
+output_folder_name = "translation_data_201810241333/" + post_language
 
 
 ########################################
