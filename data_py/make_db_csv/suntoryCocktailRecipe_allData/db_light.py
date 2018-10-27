@@ -21,10 +21,10 @@ import json
 for path_num in range(3):
     # f = open(['format_data/suntoryCocktailRecipe_formatData_ja.json', 'translation_data/suntoryCocktailRecipe_translationData_en.json', 'translation_data/suntoryCocktailRecipe_translationData_zh.json'][_], 'r', encoding="utf-8_sig", errors="ignore")
     if (path_num == 0):
-        f = open('outputdata_201810241333/suntoryCocktailRecipe_translationData_ja.json', 'r', encoding="utf-8_sig")
+        f = open('outputdata_201810271831/suntoryCocktailRecipe_translationData_ja.json', 'r', encoding="utf-8_sig")
     else:
-        f = open(['outputdata_201810241333/suntoryCocktailRecipe_translationData_en.json',
-                  'outputdata_201810241333/suntoryCocktailRecipe_translationData_zh.json'][path_num-1], 'r', encoding="utf-8_sig",
+        f = open(['outputdata_201810271831/suntoryCocktailRecipe_translationData_en.json',
+                  'outputdata_201810271831/suntoryCocktailRecipe_translationData_zh.json'][path_num-1], 'r', encoding="utf-8_sig",
                  errors="ignore")
     json_data = json.load(f)
     all_lang_list += [json_data]
@@ -144,6 +144,11 @@ def make_db_csv(all_lang_list):
 
         drink_names = [ja_line["drink_name"], en_line["drink_name"], zh_line["drink_name"]]
         priority = ja_line["priority"]
+        if priority == "TRUE" or priority == "True":
+            priority = "true"
+        elif priority == "FALSE" or priority == "False":
+            priority = "false"
+
         for lang in range(3):
             push_in(DrinkName, "DrinkName", drink_id=id_dict["Drink"], language=lang, name=drink_names[lang], primary=priority)
 
@@ -177,6 +182,9 @@ def make_db_csv(all_lang_list):
         elif ("弱" in alcohol_percentage):
             max_degree = 8
             min_degree = 1
+        elif (("0" or 0) in alcohol_percentage):
+            max_degree = 0
+            min_degree = 0
 
         image_url = ja_line["image"]
 

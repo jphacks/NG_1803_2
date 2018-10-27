@@ -14,11 +14,11 @@ import os
 # 設定項目
 ###########################################
 # JSON ファイルの読み込み
-pre_data_json = "adjust_format_data/お酒データ追加あり201810241333.json"
+pre_data_json = "adjust_format_data/suntoryCocktailRecipe_translationData_ja.json"
 
 # 言語設定
 pre_language = 'ja'
-post_language = 'zh'
+post_language = 'en'
 
 # 翻訳した言葉の一覧をjsonファイルに保存して、今後の翻訳速度を速めるのに使う
 if pre_language == 'ja' and post_language == 'en':
@@ -30,7 +30,7 @@ else:
     print("翻訳リストがありません")
 
 # 翻訳結果の出力ファルダ作成
-output_folder_name = "translation_data_201810241333/" + post_language
+output_folder_name = "translation_data_201810271814/" + post_language
 
 
 ########################################
