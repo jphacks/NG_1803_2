@@ -81,7 +81,7 @@ class MenuDrinksController < ApplicationController
           compornent_doc = compornent.compornent_docs.find_by(language: language)
           drink_compornent = DrinkCompornent.find_by(drink: drink, compornent: compornent)
 
-          amount_string = drink_compornent.drink_compornent_docs
+          amount_string = ""
           if drink_compornent.drink_compornent_docs.exists?
             amount_string = drink_compornent.drink_compornent_docs.find_by(language: language).amount_string
           end

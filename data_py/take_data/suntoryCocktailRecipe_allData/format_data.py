@@ -2,6 +2,7 @@
 
 import json
 import csv
+from time import sleep
 
 # JSON ファイルの読み込み
 f = open('original_data/suntoryCocktailRecipe_allData_20181010.json', 'r')
@@ -84,10 +85,13 @@ print(format_data_list)
 
 
 print('-----JSONファイルとして出力-----')
-fw = open('format_data/suntoryCocktailRecipe_formatData_ja.json', 'w', encoding='UTF-8')
+file_name = 'format_data/suntoryCocktailRecipe_formatData_ja.json'
+fw = open(file_name, 'w', encoding='UTF-8')
 # ココ重要！！
 # json.dump関数でファイルに書き込む
 json.dump(format_data_list, fw, ensure_ascii=False)
+fw.close()
+
 
 print('-----CSVファイルとして出力-----')
 with open('format_data/suntoryCocktailRecipe_formatData_ja.csv', 'w', newline='', encoding='utf_8_sig') as f:

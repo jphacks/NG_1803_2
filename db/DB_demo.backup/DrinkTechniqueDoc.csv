@@ -1,0 +1,7 @@
+﻿id,drink_technique_id,language,name,description
+1,1,0,ステア,
+2,1,1,Steer,
+3,1,2,驾驶,
+4,2,0,ビルド,
+5,2,1,Build,
+6,2,2,建设,

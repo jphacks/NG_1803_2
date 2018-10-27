@@ -1,0 +1,4 @@
+﻿id,drink_taste_id,min_degree,max_degree,image_url,shop_url,grass_id,category_id,source_id,base_id,drink_technique_id
+1,1,25,40,https://www.suntory.co.jp/wnb/img/cocktail/p_margarita.gif,,1,1,1,1,1
+2,2,8,25,https://www.suntory.co.jp/wnb/img/cocktail/p_screw_driver.gif,,2,1,1,2,2
+3,3,5.5,5.5,https://images-na.ssl-images-amazon.com/images/I/61QY9n7gt1L._SL1000_.jpg,,,2,2,3,

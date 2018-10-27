@@ -28,22 +28,35 @@ class GoogleVisionAPI
     request = Net::HTTP::Post.new(uri.request_uri)
     request["Content-Type"] = "application/json"
 
-    return JSON.parse(https.request(request, body).body)
+    res = https.request(request, body).body
+
+    puts res
+
+    return JSON.parse(res)
   end
 
   def self.ocr_menu(image_file)
     res = self.google_vision_api(image_file)
     p res
 
+    if res['responses'][0]['fullTextAnnotation'].nil? || res['responses'][0]['textAnnotations'].nil?
+      return nil
+    end
+
+    width = res['responses'][0]['fullTextAnnotation']['pages'][0]['width']
+    height = res['responses'][0]['fullTextAnnotation']['pages'][0]['height']
+
+    p [width, height]
+
 # OCRの出力結果から，結果を取り出して整形
     blocks = res['responses'][0]['textAnnotations'].slice(1..-1)
     ocr_words = []
     blocks.each do |block|
       text = block['description']
-      min_x = block['boundingPoly']['vertices'].map{|point| point['x']}.min
-      min_y = block['boundingPoly']['vertices'].map{|point| point['y']}.min
-      max_x = block['boundingPoly']['vertices'].map{|point| point['x']}.max
-      max_y = block['boundingPoly']['vertices'].map{|point| point['y']}.max
+      min_x = block['boundingPoly']['vertices'].map{|point| point['x'] ? point['x']: 0}.min
+      min_y = block['boundingPoly']['vertices'].map{|point| point['y'] ? point['y']: 0}.min
+      max_x = block['boundingPoly']['vertices'].map{|point| point['x'] ? point['x']: width}.max
+      max_y = block['boundingPoly']['vertices'].map{|point| point['y'] ? point['y']: height}.max
       ave_x = (min_x + max_x)/2.0
       ave_y = (min_y + max_y)/2.0
       font_size = [(max_x - min_x), (max_y - min_y)].min
@@ -146,6 +159,13 @@ class GoogleVisionAPI
         i -= 1
       end
       if connected == false
+        # デモ用精度上げ
+        origin[:text] = origin[:text].gsub(/(・|·|•)/, "")
+
+        origin[:left] = origin[:left] / width.to_f
+        origin[:right] = origin[:right] / width.to_f
+        origin[:top] = origin[:top] / height.to_f
+        origin[:bottom] = origin[:bottom] / height.to_f
         words << origin
       end
     end

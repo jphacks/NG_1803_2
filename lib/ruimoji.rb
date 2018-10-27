@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-
-require 'set'
-
 class Ruimoji
+  require 'set'
+
   def initialize
     @words = []
     @inv_index = {}
