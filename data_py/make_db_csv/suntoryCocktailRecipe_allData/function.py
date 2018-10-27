@@ -82,6 +82,136 @@ def push_in(table_name, **keyword_arguments):
 
     result[table_name] += [row]
 
+# def make_name_json(all_lang_list):
+#     import json
+#     # 日本語リストの要素数ベースで回す
+#     l = len(all_lang_list[0])
+#     # それぞれの言語のjsonたち
+#     ja_lines = all_lang_list[0]
+#     en_lines = all_lang_list[1]
+#     zh_lines = all_lang_list[2]
+
+#     drink_names = []
+#     for i in range(l):
+#         # 一行
+#         ja_line = ja_lines[i]
+#         en_line = en_lines[i]
+#         zh_line = zh_lines[i]
+
+#         drink_names += [{"ja":ja_line["drink_name"], "en":en_line["drink_name"], "zh":zh_line["drink_name"]}]
+
+#     print(drink_names)
+#     fw = open('test_json/test_drink_name.json', 'w', encoding="utf-8_sig")
+#     # ココ重要！！
+#     # json.dump関数でファイルに書き込む
+#     json.dump(drink_names, fw, ensure_ascii=False)
+#     return
+
+def make_change_image_dict(drink_names):
+    import re
+    import json
+    import difflib
+    from simstring.feature_extractor.character_ngram import CharacterNgramFeatureExtractor
+    from simstring.measure.cosine import CosineMeasure
+    from simstring.database.dict import DictDatabase
+    from simstring.searcher import Searcher
+
+    ff = open('jsons/theCocktailDB_allData_20181010.json', 'r', encoding="utf-8_sig")
+    json_data2 = json.load(ff)
+    ff.close()
+
+    # 互いに類似度を比較する文字列のリスト
+    STR_db = [re.sub(r'[!-/:-@[-`{-~]', " ", d["en"]) for d in drink_names]
+    TCD_db ={re.sub(r'[!-/:-@[-`{-~]', " ", d["drinks"][0]["strDrink"]): d["drinks"][0]["strDrinkThumb"] for d in json_data2}
+    TCD_name_db = list(TCD_db.keys())
+    count = 0
+    length = len(STR_db)
+    result_dict = {}
+    change_image_dict = {}
+
+    
+    db = DictDatabase(CharacterNgramFeatureExtractor(2))
+    for str1 in STR_db:
+        db.add(str1)
+    
+    for str2 in TCD_name_db:
+        result_dict[str2] = {}
+        searcher = Searcher(db, CosineMeasure())
+        i = 1.0
+        # 類似度を計算、0.0~1.0 で結果が返る
+        flag = False
+        for str1 in STR_db:
+            s = difflib.SequenceMatcher(None, str2, str1).ratio()
+            if s > 0.75:
+                flag = True
+                if (str1 in result_dict[str2]):
+                    
+                    d =  result_dict[str2][str1]
+                    #平均更新
+                    d = [(d[0]*d[1]+s)/(d[1]+1), d[1]+1]
+                    
+                    result_dict[str2][str1] = d
+                else:
+                    
+                    result_dict[str2].setdefault(str1, [s ,1])
+                    
+        
+        temp = []
+        while i >= 0.65:
+            result = searcher.search(str2, i)
+            if (len(result)):
+                flag = True
+                for str1 in result:
+                    if (str1 in temp): continue
+                    temp += [str1]
+                    if (str1 in result_dict[str2]):
+                        
+                        d =  result_dict[str2][str1]
+                        #平均更新
+                        d = [(d[0]*d[1]+i)/(d[1]+1), d[1]+1]
+                        
+                        result_dict[str2][str1] = d
+                    else:
+                        result_dict[str2].setdefault(str1, [i ,1])
+                        
+                        
+            i -= 0.001
+        if (flag):
+            
+            count += 1
+        
+    with open("./search_log.txt", "w+", encoding="utf-8_sig") as f:
+        real_count = 0
+        for str2 in TCD_name_db:
+            print("\n", file=f)
+            print("\n")
+            print(">> "+str2, file=f)
+            print(">> "+str2)
+            M = 0.0
+            name = ""
+            for key, value_list in result_dict[str2].items():
+                if (M < value_list[0]):
+                    name = key
+                    M = value_list[0]
+            print("  "+name+": "+str(M), file=f)
+            if (M != 0):
+                if (M >= 0.76):
+                    print("  "+name+": "+str(M))
+                    print("ok", file=f)
+                    print("ok")
+                    change_image_dict[name] = TCD_db[str2]
+                    real_count += 1
+                else:
+                    print("  "+name+": "+str(M))
+                    print("out", file=f)
+                    print("out")
+            
+
+        print("\nmatch is {count}/{length} but real_match is {real_count}/{length}".format(count=count, real_count=real_count, length=length), file=f)
+        print("\nmatch is {count}/{length} but real_match is {real_count}/{length}".format(count=count, real_count=real_count, length=length))
+
+    exit()
+    return change_image_dict
 
 def make_db_csv(all_lang_list):
     # 日本語リストの要素数ベースで回す
@@ -114,6 +244,18 @@ def make_db_csv(all_lang_list):
     ja_lines = all_lang_list[0]
     en_lines = all_lang_list[1]
     zh_lines = all_lang_list[2]
+    
+    drink_names = []
+    for i in range(l):
+        # 一行
+        ja_line = ja_lines[i]
+        en_line = en_lines[i]
+        zh_line = zh_lines[i]
+
+        drink_names += [{"ja":ja_line["drink_name"], "en":en_line["drink_name"], "zh":zh_line["drink_name"]}]
+    
+    change_image_dict = make_change_image_dict(drink_names)
+    change_image_name_list = list(change_image_dict.keys())
 
     for i in range(l):
         # 一行
@@ -163,8 +305,10 @@ def make_db_csv(all_lang_list):
             max_degree = 8
             min_degree = 1
 
-        image_url = ja_line["image"]
-
+        if not (en_line["drink_name"] in change_image_name_list):
+            if (".gif" in ja_line["image"]): image_url = ""
+            else: image_url = ja_line["image"]
+        else: image_url = change_image_dict[en_line["drink_name"]]
 
         ######################
         # DrinkCompornent    #

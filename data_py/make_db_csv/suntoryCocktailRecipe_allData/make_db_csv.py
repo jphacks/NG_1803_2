@@ -8,12 +8,21 @@ all_lang_list = []
 
 for path_num in range(3):
     if (path_num == 0):
-        f = open('format_data/suntoryCocktailRecipe_formatData_ja.json', 'r')
-    else:
-        f = open(['translation_data/suntoryCocktailRecipe_translationData_en.json',
-                  'translation_data/suntoryCocktailRecipe_translationData_zh.json'][path_num - 1], 'r',
+        # f = open('format_data/suntoryCocktailRecipe_formatData_ja.json', 'r')
+        f = open('jsons/suntoryCocktailRecipe_translationData_ja.json', 'r',
                  encoding="utf-8_sig",
                  errors="ignore")
+        print("ja")
+    else:
+        # f = open(['translation_data/suntoryCocktailRecipe_translationData_en.json',
+        #           'translation_data/suntoryCocktailRecipe_translationData_zh.json'][path_num - 1], 'r',
+        #          encoding="utf-8_sig",
+        #          errors="ignore")
+        f = open(['jsons/suntoryCocktailRecipe_translationData_en.json',
+                  'jsons/suntoryCocktailRecipe_translationData_zh.json'][path_num - 1], 'r',
+                 encoding="utf-8_sig",
+                 errors="ignore")
+        print(["en", "zh"][path_num-1])
     json_data = json.load(f)
     all_lang_list += [json_data]
 

@@ -1,0 +1,2365 @@
+﻿
+
+>> A Furlong Too Late
+  : 0.0
+
+
+>> A Night In Old Mandalay
+  : 0.0
+
+
+>> A  J 
+  : 0.0
+
+
+>> Abbey Cocktail
+  : 0.0
+
+
+>> Abilene
+  : 0.0
+
+
+>> Acapulco
+  : 0.0
+
+
+>> Adam
+  : 0.0
+
+
+>> Adonis Cocktail
+  : 0.0
+
+
+>> Affair
+  : 0.0
+
+
+>> Affinity
+  : 0.0
+
+
+>> After Dinner Cocktail
+  : 0.0
+
+
+>> After Supper Cocktail
+  : 0.0
+
+
+>> Alabama Slammer
+  : 0.0
+
+
+>> Alaska Cocktail
+  : 0.0
+
+
+>> Alexander
+  Alexander: 1.0
+ok
+
+
+>> Brandy Alexander
+  Alexander: 0.7659999999999998
+ok
+
+
+>> Alfie Cocktail
+  : 0.0
+
+
+>> Algonquin
+  : 0.0
+
+
+>> Allegheny
+  : 0.0
+
+
+>> Allies Cocktail
+  : 0.0
+
+
+>> Almeria
+  : 0.0
+
+
+>> Almond Joy
+  : 0.0
+
+
+>> Amaretto And Cream
+  : 0.0
+
+
+>> Amaretto Mist
+  : 0.0
+
+
+>> Amaretto Rose
+  : 0.0
+
+
+>> Amaretto Stinger
+  : 0.0
+
+
+>> Amaretto Tea
+  : 0.0
+
+
+>> Angel Face
+  : 0.0
+
+
+>> Applecar
+  Apple car: 0.8920882352941175
+ok
+
+
+>> Apricot Lady
+  Apricot Colada: 0.7692307692307693
+ok
+
+
+>> Archbishop
+  : 0.0
+
+
+>> Arise My Love
+  : 0.0
+
+
+>> Arthur Tompkins
+  : 0.0
+
+
+>> Artillery
+  : 0.0
+
+
+>> Balmoral
+  : 0.0
+
+
+>> Banana Daiquiri
+  Frozen Banana Daikiri: 0.6919999999999997
+out
+
+
+>> Bermuda Highball
+  : 0.0
+
+
+>> Black Russian
+  : 0.0
+
+
+>> Blackthorn
+  : 0.0
+
+
+>> Bloody Maria
+  Bloody Mary: 0.834782608695652
+ok
+
+
+>> Bloody Mary
+  Bloody Mary: 1.0
+ok
+
+
+>> Blue Lagoon
+  Blue Lagoon: 1.0
+ok
+
+
+>> Blue Margarita
+  Frozen Blue Margarita: 0.8125
+ok
+
+
+>> Blue Mountain
+  : 0.0
+
+
+>> Bluebird
+  : 0.0
+
+
+>> Bobby Burns Cocktail
+  : 0.0
+
+
+>> Boomerang
+  : 0.0
+
+
+>> Boston Sidecar
+  : 0.0
+
+
+>> Boston Sour
+  : 0.0
+
+
+>> Classic Old Fashioned
+  Old fashioned: 0.7399999999999998
+out
+
+
+>> Bourbon Sling
+  : 0.0
+
+
+>> Bourbon Sour
+  Bourbon sour: 0.8813333333333333
+ok
+
+
+>> Boxcar
+  : 0.0
+
+
+>> Brandy Cobbler
+  : 0.0
+
+
+>> Brandy Flip
+  : 0.0
+
+
+>> Brandy Sour
+  : 0.0
+
+
+>> Caipirinha
+  : 0.0
+
+
+>> California Lemonade
+  : 0.0
+
+
+>> Casa Blanca
+  : 0.0
+
+
+>> Casino Royale
+  : 0.0
+
+
+>> Champagne Cocktail
+  : 0.0
+
+
+>> Cherry Rum
+  : 0.0
+
+
+>> Chicago Fizz
+  : 0.0
+
+
+>> Chocolate Black Russian
+  : 0.0
+
+
+>> City Slicker
+  : 0.0
+
+
+>> Clove Cocktail
+  : 0.0
+
+
+>> Cuba Libre
+  Cuba Libre: 1.0
+ok
+
+
+>> Daiquiri
+  Daikiri: 0.7534999999999998
+out
+
+
+>> Dragonfly
+  : 0.0
+
+
+>> Dry Rob Roy
+  Robloy: 0.7629999999999998
+ok
+
+
+>> Dubonnet Cocktail
+  : 0.0
+
+
+>> English Highball
+  : 0.0
+
+
+>> English Rose Cocktail
+  : 0.0
+
+
+>> Flying Dutchman
+  : 0.0
+
+
+>> Flying Scotchman
+  : 0.0
+
+
+>> Foxy Lady
+  : 0.0
+
+
+>> French  75 
+  French 75: 0.9059999999999999
+ok
+
+
+>> Frisco Sour
+  : 0.0
+
+
+>> Frozen Daiquiri
+  Frozen Banana Daikiri: 0.6919999999999997
+out
+
+
+>> Frozen Mint Daiquiri
+  : 0.0
+
+
+>> Frozen Pineapple Daiquiri
+  : 0.0
+
+
+>> Gentleman s Club
+  : 0.0
+
+
+>> Gin And Tonic
+  Gin tonic: 0.6759999999999997
+out
+
+
+>> Gin Cooler
+  Wine cooler: 0.7619047619047619
+ok
+
+
+>> Gin Daisy
+  : 0.0
+
+
+>> Gin Fizz
+  : 0.0
+
+
+>> Gin Sling
+  : 0.0
+
+
+>> Gin Smash
+  : 0.0
+
+
+>> Gin Sour
+  : 0.0
+
+
+>> Gin Squirt
+  : 0.0
+
+
+>> Gin Swizzle
+  : 0.0
+
+
+>> Gin Toddy
+  : 0.0
+
+
+>> Godchild
+  : 0.0
+
+
+>> Godfather
+  Godfather: 1.0
+ok
+
+
+>> Godmother
+  God Mother: 0.8020526315789472
+ok
+
+
+>> Grass Skirt
+  : 0.0
+
+
+>> Harvey Wallbanger
+  : 0.0
+
+
+>> Havana Cocktail
+  : 0.0
+
+
+>> Hawaiian Cocktail
+  : 0.0
+
+
+>> Highland Fling Cocktail
+  : 0.0
+
+
+>> Imperial Fizz
+  : 0.0
+
+
+>> Irish Spring
+  : 0.0
+
+
+>> Jack Rose Cocktail
+  : 0.0
+
+
+>> Japanese Fizz
+  : 0.0
+
+
+>> Jewel Of The Nile
+  : 0.0
+
+
+>> John Collins
+  Tom Collins: 0.782608695652174
+ok
+
+
+>> Kamikaze
+  Kamikaze: 1.0
+ok
+
+
+>> Kentucky B And B
+  : 0.0
+
+
+>> Kentucky Colonel
+  : 0.0
+
+
+>> Lady Love Fizz
+  : 0.0
+
+
+>> Loch Lomond
+  : 0.0
+
+
+>> London Town
+  : 0.0
+
+
+>> Lone Tree Cocktail
+  : 0.0
+
+
+>> Lone Tree Cooler
+  : 0.0
+
+
+>> Long Island Tea
+  Long Island Ice Tea: 0.8842941176470589
+ok
+
+
+>> Lord And Lady
+  : 0.0
+
+
+>> Mai Tai
+  Mytai: 0.7209999999999998
+out
+
+
+>> Martinez Cocktail
+  : 0.0
+
+
+>> Martini
+  Martini: 1.0
+ok
+
+
+>> Midnight Cowboy
+  : 0.0
+
+
+>> Mississippi Planters Punch
+  : 0.0
+
+
+>> Monkey Wrench
+  : 0.0
+
+
+>> New York Sour
+  New York: 0.7814523809523808
+ok
+
+
+>> Orange Oasis
+  Rouge Cassis Orange: 0.7439999999999998
+out
+
+
+>> Orgasm
+  orgasm: 0.7736666666666665
+ok
+
+
+>> Pink Gin
+  : 0.0
+
+
+>> Pink Lady
+  Pink Lady: 1.0
+ok
+
+
+>> Poppy Cocktail
+  : 0.0
+
+
+>> Port And Starboard
+  : 0.0
+
+
+>> Port Wine Cocktail
+  : 0.0
+
+
+>> Port Wine Flip
+  : 0.0
+
+
+>> Quaker s Cocktail
+  : 0.0
+
+
+>> Quarter Deck Cocktail
+  : 0.0
+
+
+>> Queen Bee
+  : 0.0
+
+
+>> Queen Charlotte
+  : 0.0
+
+
+>> Queen Elizabeth
+  : 0.0
+
+
+>> Quentin
+  : 0.0
+
+
+>> Royal Fizz
+  : 0.0
+
+
+>> Royal Gin Fizz
+  : 0.0
+
+
+>> Rum Cobbler
+  : 0.0
+
+
+>> Rum Cooler
+  : 0.0
+
+
+>> Rum Milk Punch
+  : 0.0
+
+
+>> Rum Old fashioned
+  Old fashioned: 0.8738333333333332
+ok
+
+
+>> Rum Screwdriver
+  screwdriver: 0.7451153846153845
+out
+
+
+>> Rum Sour
+  : 0.0
+
+
+>> Rum Toddy
+  : 0.0
+
+
+>> Rusty Nail
+  Rusty Neale: 0.8571428571428571
+ok
+
+
+>> Salty Dog
+  Salty Dog: 1.0
+ok
+
+
+>> Sazerac
+  : 0.0
+
+
+>> Scooter
+  : 0.0
+
+
+>> Scotch Cobbler
+  : 0.0
+
+
+>> Scotch Sour
+  : 0.0
+
+
+>> Screwdriver
+  screwdriver: 0.8710454545454545
+ok
+
+
+>> Shanghai Cocktail
+  : 0.0
+
+
+>> Sherry Eggnog
+  : 0.0
+
+
+>> Sherry Flip
+  : 0.0
+
+
+>> Sidecar
+  : 0.0
+
+
+>> Sidecar Cocktail
+  : 0.0
+
+
+>> Singapore Sling
+  Singapore Sling: 1.0
+ok
+
+
+>> Sloe Gin Cocktail
+  : 0.0
+
+
+>> Sol Y Sombra
+  : 0.0
+
+
+>> Stone Sour
+  : 0.0
+
+
+>> Strawberry Daiquiri
+  : 0.0
+
+
+>> Strawberry Margarita
+  Frozen strawberry margarita: 0.7334787234042552
+out
+
+
+>> Tequila Fizz
+  : 0.0
+
+
+>> Tequila Sour
+  Tequila Sunrise: 0.8148148148148148
+ok
+
+
+>> Thriller
+  : 0.0
+
+
+>> Tom Collins
+  Tom Collins: 1.0
+ok
+
+
+>> Turf Cocktail
+  : 0.0
+
+
+>> Tuxedo Cocktail
+  : 0.0
+
+
+>> Valencia Cocktail
+  Valencia: 0.7069999999999997
+out
+
+
+>> Van Vleet
+  : 0.0
+
+
+>> Vermouth Cassis
+  : 0.0
+
+
+>> Vesuvio
+  : 0.0
+
+
+>> Veteran
+  : 0.0
+
+
+>> Victor
+  : 0.0
+
+
+>> Victory Collins
+  : 0.0
+
+
+>> Vodka And Tonic
+  Vodka Tonic: 0.856076923076923
+ok
+
+
+>> Waikiki Beachcomber
+  : 0.0
+
+
+>> Whiskey Sour
+  : 0.0
+
+
+>> Whisky Mac
+  : 0.0
+
+
+>> White Russian
+  White Lucian: 0.7334999999999998
+out
+
+
+>> Afterglow
+  : 0.0
+
+
+>> Alice Cocktail
+  : 0.0
+
+
+>> Apple Karate
+  Apple car: 0.7314523809523807
+out
+
+
+>> Bora Bora
+  Bourbonera: 0.7619999999999998
+ok
+
+
+>> Orangeade
+  : 0.0
+
+
+>> Rail Splitter
+  : 0.0
+
+
+>> Banana Milk Shake
+  : 0.0
+
+
+>> Banana Strawberry Shake
+  : 0.0
+
+
+>> Banana Strawberry Shake Daiquiri type
+  : 0.0
+
+
+>> Egg Cream
+  : 0.0
+
+
+>> Fruit Cooler
+  : 0.0
+
+
+>> Fruit Flip Flop
+  : 0.0
+
+
+>> Fruit Shake
+  : 0.0
+
+
+>> Just a Moonmint
+  : 0.0
+
+
+>> Lassi   A South Indian Drink
+  : 0.0
+
+
+>> Lassi Khara
+  : 0.0
+
+
+>> Lassi Raita
+  : 0.0
+
+
+>> Lassi   Sweet
+  : 0.0
+
+
+>> Lassi   Mango
+  Mango Yan Lassie: 0.7129999999999997
+out
+
+
+>> Lemouroudji
+  : 0.0
+
+
+>> Limeade
+  : 0.0
+
+
+>> Imperial Cocktail
+  : 0.0
+
+
+>> Banana Cantaloupe Smoothie
+  : 0.0
+
+
+>> Apple Berry Smoothie
+  : 0.0
+
+
+>> Grape lemon pineapple Smoothie
+  : 0.0
+
+
+>> Kiwi Papaya Smoothie
+  : 0.0
+
+
+>> Mango Orange Smoothie
+  Mango Yang Orange: 0.7029999999999997
+out
+
+
+>> Pineapple Gingerale Smoothie
+  : 0.0
+
+
+>> Kill the cold Smoothie
+  : 0.0
+
+
+>> Strawberry Shivers
+  Strawberry Milk: 0.7449999999999998
+out
+
+
+>> Sweet Bananas
+  : 0.0
+
+
+>> Tomato Tang
+  Tango: 0.7069999999999997
+out
+
+
+>> Yoghurt Cooler
+  : 0.0
+
+
+>> Castillian Hot Chocolate
+  : 0.0
+
+
+>> Chocolate Beverage
+  Chocolate sour: 0.6509999999999997
+out
+
+
+>> Chocolate Drink
+  Chocolate sour: 0.7586206896551724
+out
+
+
+>> Drinking Chocolate
+  Chocolate sling: 0.8019999999999998
+ok
+
+
+>> Hot Chocolate to Die for
+  : 0.0
+
+
+>> Microwave Hot Cocoa
+  : 0.0
+
+
+>> Nuked Hot Chocolate
+  : 0.0
+
+
+>> Orange Scented Hot Chocolate
+  : 0.0
+
+
+>> Spanish chocolate
+  : 0.0
+
+
+>> Lemon Shot
+  : 0.0
+
+
+>> Sex on the Beach
+  Sex on the beach: 0.90975
+ok
+
+
+>> Autodafé
+  : 0.0
+
+
+>> Gagliardo
+  : 0.0
+
+
+>> Surf City Lifesaver
+  : 0.0
+
+
+>> Grizzly Bear
+  : 0.0
+
+
+>> Karsk
+  : 0.0
+
+
+>> Happy Skipper
+  : 0.0
+
+
+>> Frappé
+  : 0.0
+
+
+>> Iced Coffee
+  : 0.0
+
+
+>> Iced Coffee Fillip
+  : 0.0
+
+
+>> Masala Chai
+  : 0.0
+
+
+>> Melya
+  : 0.0
+
+
+>> Spiking coffee
+  : 0.0
+
+
+>> Thai Coffee
+  : 0.0
+
+
+>> Thai Iced Coffee
+  : 0.0
+
+
+>> Thai Iced Tea
+  : 0.0
+
+
+>> Absinthe  2
+  : 0.0
+
+
+>> Amaretto Liqueur
+  : 0.0
+
+
+>> Angelica Liqueur
+  : 0.0
+
+
+>> Caribbean Orange Liqueur
+  : 0.0
+
+
+>> Coffee Liqueur
+  : 0.0
+
+
+>> Coffee Vodka
+  : 0.0
+
+
+>> Cranberry Cordial
+  : 0.0
+
+
+>> Creme de Menthe
+  : 0.0
+
+
+>> Irish Cream
+  : 0.0
+
+
+>> Scottish Highland Liqueur
+  : 0.0
+
+
+>> Tia Maria
+  : 0.0
+
+
+>> Aloha Fruit punch
+  : 0.0
+
+
+>> Apple Cider Punch  1
+  : 0.0
+
+
+>> Artillery Punch
+  : 0.0
+
+
+>> Berry Deadly
+  : 0.0
+
+
+>> Cranberry Punch
+  : 0.0
+
+
+>> Egg Nog  4
+  : 0.0
+
+
+>> Egg Nog   Classic Cooked
+  : 0.0
+
+
+>> Egg Nog   Healthy
+  : 0.0
+
+
+>> Gluehwein
+  : 0.0
+
+
+>> Holloween Punch
+  : 0.0
+
+
+>> Mulled Wine
+  : 0.0
+
+
+>> Sangria  1
+  : 0.0
+
+
+>> Sweet Sangria
+  : 0.0
+
+
+>> Sangria   The World s Best
+  : 0.0
+
+
+>> Spiced Peach Punch
+  : 0.0
+
+
+>> Strawberry Lemonade
+  : 0.0
+
+
+>> Sunny Holiday Punch
+  : 0.0
+
+
+>> Wine Cooler
+  Wine cooler: 0.8710454545454545
+ok
+
+
+>> Wine Punch
+  : 0.0
+
+
+>> Margarita
+  Margarita: 1.0
+ok
+
+
+>> Bruce s Puce
+  : 0.0
+
+
+>> Brave Bull Shooter
+  Brave Bull: 0.7599999999999998
+out
+
+
+>> Fahrenheit 5000
+  : 0.0
+
+
+>> Popped cherry
+  : 0.0
+
+
+>> Atomic Lokade
+  : 0.0
+
+
+>> Diesel
+  : 0.0
+
+
+>> Afternoon
+  : 0.0
+
+
+>> Kool Aid Shot
+  : 0.0
+
+
+>> National Aquarium
+  : 0.0
+
+
+>> Damned if you do
+  : 0.0
+
+
+>> Long vodka
+  : 0.0
+
+
+>> Quick F  K
+  : 0.0
+
+
+>> Owen s Grandmother s Revenge
+  : 0.0
+
+
+>> Flaming Dr  Pepper
+  : 0.0
+
+
+>> New York Lemonade
+  New York: 0.7069999999999997
+out
+
+
+>> Caipirissima
+  : 0.0
+
+
+>> Pisco Sour
+  : 0.0
+
+
+>> Big Red
+  : 0.0
+
+
+>> Moscow Mule
+  Moscowur: 0.6729999999999997
+out
+
+
+>> Black   Tan
+  : 0.0
+
+
+>> Chocolate Milk
+  Cafe Chocolate Milk: 0.8572424242424241
+ok
+
+
+>> B 53
+  : 0.0
+
+
+>> Sea breeze
+  Sea Breeze: 0.859
+ok
+
+
+>> Snake Bite  UK 
+  : 0.0
+
+
+>> Bob Marley
+  : 0.0
+
+
+>> Brainteaser
+  : 0.0
+
+
+>> Atlantic Sun
+  : 0.0
+
+
+>> Mojito
+  Mojito: 1.0
+ok
+
+
+>> Green Goblin
+  Green eyes: 0.6679999999999997
+out
+
+
+>> Oreo Mudslide
+  : 0.0
+
+
+>> ABC
+  : 0.0
+
+
+>> Pink Panty Pulldowns
+  : 0.0
+
+
+>> Ice Pick  1
+  : 0.0
+
+
+>> 410 Gone
+  : 0.0
+
+
+>> Tequila Sunrise
+  Tequila Sunrise: 1.0
+ok
+
+
+>> Screaming Orgasm
+  : 0.0
+
+
+>> Flander s Flake Out
+  : 0.0
+
+
+>> Apple Slammer
+  : 0.0
+
+
+>> Amaretto Sour
+  : 0.0
+
+
+>> Cuba Libra
+  Cuba Libre: 0.9045
+ok
+
+
+>> Jelly Bean
+  : 0.0
+
+
+>> After Five
+  : 0.0
+
+
+>> Midnight Manx
+  : 0.0
+
+
+>> Kir Royale
+  Kiel Royale: 0.8200714285714285
+ok
+
+
+>> Manhattan
+  Manhattan: 1.0
+ok
+
+
+>> Jackhammer
+  : 0.0
+
+
+>> Nutty Irishman
+  : 0.0
+
+
+>> 3 Wise Men
+  : 0.0
+
+
+>> Miami Vice
+  Miami: 0.7379999999999998
+out
+
+
+>> AT T
+  : 0.0
+
+
+>> 69 Special
+  : 0.0
+
+
+>> Irish Coffee
+  Irish coffee: 0.8813333333333333
+ok
+
+
+>>  57 Chevy with a White License Plate
+  : 0.0
+
+
+>> Mother s Milk
+  : 0.0
+
+
+>> Zippy s Revenge
+  : 0.0
+
+
+>> Belgian Blue
+  : 0.0
+
+
+>> Red Snapper
+  : 0.0
+
+
+>> Jamaica Kiss
+  : 0.0
+
+
+>> Absolut Summertime
+  : 0.0
+
+
+>> Cosmopolitan Martini
+  Tres Cosmopolitan: 0.6679999999999997
+out
+
+
+>> Ziemes Martini Apfelsaft
+  : 0.0
+
+
+>> Vodka Martini
+  Vodka Martini: 1.0
+ok
+
+
+>> Cafe Savoy
+  : 0.0
+
+
+>> Snowball
+  : 0.0
+
+
+>> Mocha Berry
+  : 0.0
+
+
+>> 747
+  : 0.0
+
+
+>> Addison Special
+  : 0.0
+
+
+>> California Root Beer
+  : 0.0
+
+
+>> Amaretto Stone Sour
+  : 0.0
+
+
+>> Blind Russian
+  : 0.0
+
+
+>> Absolut Sex
+  : 0.0
+
+
+>> Aztec Punch
+  : 0.0
+
+
+>> Lemon Drop
+  : 0.0
+
+
+>> Absolut limousine
+  : 0.0
+
+
+>> Absolut Evergreen
+  : 0.0
+
+
+>> Lunch Box
+  : 0.0
+
+
+>> Kool Aid Slammer
+  : 0.0
+
+
+>> Kurant Tea
+  : 0.0
+
+
+>> Dirty Nipple
+  : 0.0
+
+
+>> Darkwood Sling
+  : 0.0
+
+
+>> Bailey s Dream Shake
+  : 0.0
+
+
+>> Bumble Bee  1
+  : 0.0
+
+
+>> A D M   After Dinner Mint 
+  : 0.0
+
+
+>> A Splash of Nash
+  : 0.0
+
+
+>> Amaretto Sunrise
+  : 0.0
+
+
+>> Arizona Stingers
+  : 0.0
+
+
+>> Orange Push up
+  : 0.0
+
+
+>> 151 Florida Bushwacker
+  : 0.0
+
+
+>> Zizi Coin coin
+  : 0.0
+
+
+>> 50 50
+  : 0.0
+
+
+>> Tequila Surprise
+  Tequila Sunrise: 0.8756129032258064
+ok
+
+
+>> Cream Soda
+  : 0.0
+
+
+>> ACID
+  : 0.0
+
+
+>> Arctic Fish
+  : 0.0
+
+
+>> Grim Reaper
+  : 0.0
+
+
+>> Freddy Kruger
+  : 0.0
+
+
+>> Bubble Gum
+  : 0.0
+
+
+>> Kiwi Lemon
+  : 0.0
+
+
+>> Hot Creamy Bush
+  : 0.0
+
+
+>> Midnight Mint
+  : 0.0
+
+
+>> Talos Coffee
+  : 0.0
+
+
+>> Zinger
+  : 0.0
+
+
+>> Jello shots
+  : 0.0
+
+
+>> Rum Punch
+  : 0.0
+
+
+>> Turkeyball
+  : 0.0
+
+
+>> Absolutely Cranberry Smash
+  : 0.0
+
+
+>> Kiss me Quick
+  : 0.0
+
+
+>> Royal Flush
+  : 0.0
+
+
+>> Limona Corona
+  : 0.0
+
+
+>> Pysch Vitamin Light
+  : 0.0
+
+
+>> Apello
+  : 0.0
+
+
+>> Texas Rattlesnake
+  : 0.0
+
+
+>> After sex
+  : 0.0
+
+
+>> San Francisco
+  : 0.0
+
+
+>> Amaretto Shake
+  : 0.0
+
+
+>> A Day at the Beach
+  : 0.0
+
+
+>> Malibu Twister
+  : 0.0
+
+
+>> Space Odyssey
+  : 0.0
+
+
+>> Zenmeister
+  : 0.0
+
+
+>> Avalon
+  : 0.0
+
+
+>> 252
+  : 0.0
+
+
+>> 3 Mile Long Island Iced Tea
+  Long Island Ice Tea: 0.8292391304347825
+ok
+
+
+>> Zorro
+  : 0.0
+
+
+>> Orange Crush
+  : 0.0
+
+
+>> 155 Belmont
+  : 0.0
+
+
+>> 1 900 FUK MEUP
+  : 0.0
+
+
+>> Vodka Russian
+  : 0.0
+
+
+>> Danbooka
+  : 0.0
+
+
+>> 110 in the shade
+  : 0.0
+
+
+>> Grand Blue
+  : 0.0
+
+
+>> Baby Eskimo
+  : 0.0
+
+
+>> Tennesee Mud
+  : 0.0
+
+
+>> Swedish Coffee
+  : 0.0
+
+
+>> Negroni
+  : 0.0
+
+
+>> Adam Sunrise
+  : 0.0
+
+
+>> Absolut Stress  2
+  : 0.0
+
+
+>> Chocolate Monkey
+  : 0.0
+
+
+>> Texas Sling
+  : 0.0
+
+
+>> A midsummernight dream
+  : 0.0
+
+
+>> Zoksel
+  : 0.0
+
+
+>> Fuzzy Asshole
+  : 0.0
+
+
+>> Quick sand
+  : 0.0
+
+
+>> Snakebite and Black
+  : 0.0
+
+
+>> Zimadori Zinger
+  : 0.0
+
+
+>> Herbal flame
+  : 0.0
+
+
+>> Jamaican Coffee
+  : 0.0
+
+
+>> Mojito  3
+  Mojito: 0.818
+ok
+
+
+>> Apricot punch
+  : 0.0
+
+
+>> B 52
+  : 0.0
+
+
+>> Zambeer
+  : 0.0
+
+
+>> Americano
+  : 0.0
+
+
+>> Black Forest Shake
+  : 0.0
+
+
+>> GG
+  : 0.0
+
+
+>> Radler
+  : 0.0
+
+
+>> Mudslinger
+  : 0.0
+
+
+>> Campari Beer
+  : 0.0
+
+
+>> Almond Chocolate Coffee
+  : 0.0
+
+
+>> Amaretto Stone Sour  3
+  : 0.0
+
+
+>> 9 1 2 Weeks
+  : 0.0
+
+
+>> Absolutly Screwed Up
+  : 0.0
+
+
+>> Whitecap Margarita
+  Margarita: 0.7249999999999998
+out
+
+
+>> Bellini Martini
+  24 Martini: 0.8289999999999998
+ok
+
+
+>> Jitterbug
+  : 0.0
+
+
+>> Moranguito
+  : 0.0
+
+
+>> Amaretto Sweet   Sour
+  : 0.0
+
+
+>> Rum Runner
+  : 0.0
+
+
+>> H D 
+  : 0.0
+
+
+>> The Evil Blue Thing
+  : 0.0
+
+
+>> Shark Attack
+  : 0.0
+
+
+>> Jack s Vanilla Coke
+  : 0.0
+
+
+>> Apple Grande
+  Golden Apple: 0.6919999999999997
+out
+
+
+>> Bleeding Surgeon
+  : 0.0
+
+
+>> Applejack
+  : 0.0
+
+
+>> Adam Bomb
+  : 0.0
+
+
+>> Arizona Antifreeze
+  : 0.0
+
+
+>> Black and Brown
+  : 0.0
+
+
+>> A Piece of Ass
+  : 0.0
+
+
+>> Avalanche
+  : 0.0
+
+
+>> Brandon and Will s Coke Float
+  : 0.0
+
+
+>> Flaming Lamborghini
+  : 0.0
+
+
+>> Zipperhead
+  : 0.0
+
+
+>> A Gilligan s Island
+  : 0.0
+
+
+>> Kioki Coffee
+  : 0.0
+
+
+>> Apple Pie with A Crust
+  : 0.0
+
+
+>> Zorbatini
+  : 0.0
+
+
+>> Vodka Fizz
+  : 0.0
+
+
+>> Radioactive Long Island Iced Tea
+  Long Island Ice Tea: 0.7779999999999998
+ok
+
+
+>> Shot gun
+  : 0.0
+
+
+>> Bible Belt
+  : 0.0
+
+
+>> Irish Curdling Cow
+  : 0.0
+
+
+>> Sweet Tooth
+  : 0.0
+
+
+>> Downshift
+  : 0.0
+
+
+>> Pink Penocha
+  : 0.0
+
+
+>> Orange Whip
+  : 0.0
+
+
+>> Bruised Heart
+  : 0.0
+
+
+>> Gideon s Green Dinosaur
+  : 0.0
+
+
+>> A True Amaretto Sour
+  : 0.0
+
+
+>> Kool First Aid
+  : 0.0
+
+
+>> Irish Russian
+  : 0.0
+
+
+>> Auburn Headbanger
+  : 0.0
+
+
+>> Zima Blaster
+  : 0.0
+
+
+>> Buccaneer
+  : 0.0
+
+
+>> Homemade Kahlua
+  : 0.0
+
+
+>> 24k nightmare
+  : 0.0
+
+
+>> Caribbean Boilermaker
+  : 0.0
+
+
+>> Army special
+  : 0.0
+
+
+>> Arizona Twister
+  : 0.0
+
+
+>> Baby Guinness
+  : 0.0
+
+
+>> Alice in Wonderland
+  : 0.0
+
+
+>> 501 Blue
+  : 0.0
+
+
+>> Coke and Drops
+  : 0.0
+
+
+>> Ruby Tuesday
+  : 0.0
+
+
+>> Arctic Mouthwash
+  : 0.0
+
+
+>> Brain Fart
+  : 0.0
+
+
+>> Royal Bitch
+  : 0.0
+
+
+>> Citrus Coke
+  : 0.0
+
+
+>> Smut
+  : 0.0
+
+
+>> Raspberry Cooler
+  : 0.0
+
+
+>> Amaretto Sunset
+  : 0.0
+
+
+>> Cherry Electric Lemonade
+  : 0.0
+
+
+>> Girl From Ipanema
+  : 0.0
+
+
+>> Ipamena
+  : 0.0
+
+
+>> Dark Caipirinha
+  : 0.0
+
+
+>> Jam Donut
+  : 0.0
+
+
+>> Old Fashioned
+  Old fashioned: 0.8900384615384616
+ok
+
+
+>> Aviation
+  : 0.0
+
+
+>> Dirty Martini
+  Mistya Martini: 0.7732098765432097
+ok
+
+
+>> Duchamp s Punch
+  : 0.0
+
+
+>> Bacardi Cocktail
+  : 0.0
+
+
+>> Between The Sheets
+  Betweens The Sheets: 0.9563153153153153
+ok
+
+
+>> Casino
+  : 0.0
+
+
+>> Clover Club
+  : 0.0
+
+
+>> Derby
+  : 0.0
+
+
+>> Mary Pickford
+  : 0.0
+
+
+>> Monkey Gland
+  : 0.0
+
+
+>> Paradise
+  Paradise: 1.0
+ok
+
+
+>> Planter s Punch
+  : 0.0
+
+
+>> Porto flip
+  : 0.0
+
+
+>> Stinger
+  : 0.0
+
+
+>> White Lady
+  White lady: 0.859
+ok
+
+
+>> Bellini
+  : 0.0
+
+
+>> Cosmopolitan
+  cosmopolitan: 0.8813333333333333
+ok
+
+
+>> French 75
+  French 75: 1.0
+ok
+
+
+>> French Connection
+  : 0.0
+
+
+>> Golden dream
+  : 0.0
+
+
+>> Grasshopper
+  Grasshopper: 1.0
+ok
+
+
+>> Hemingway Special
+  : 0.0
+
+
+>> Horse s Neck
+  : 0.0
+
+
+>> Kir
+  : 0.0
+
+
+>> Long Island Iced Tea
+  Long Island Ice Tea: 0.9744658119658118
+ok
+
+
+>> Mimosa
+  : 0.0
+
+
+>> Mint Julep
+  Mint Julep: 1.0
+ok
+
+
+>> Pina Colada
+  Pinha Colada: 0.9182608695652174
+ok
+
+
+>> Rose
+  : 0.0
+
+
+>> Barracuda
+  : 0.0
+
+
+>> Bramble
+  : 0.0
+
+
+>> Dark and Stormy
+  : 0.0
+
+
+>> Espresso Martini
+  Tres Martini: 0.7288571428571426
+out
+
+
+>> French Martini
+  Tres Martini: 0.7692307692307693
+ok
+
+
+>> Russian Spring Punch
+  : 0.0
+
+
+>> Spritz
+  : 0.0
+
+
+>> Tommy s Margarita
+  Margarita: 0.7449999999999998
+out
+
+
+>> Vampiro
+  : 0.0
+
+
+>> Vesper
+  : 0.0
+
+
+>> Yellow Bird
+  : 0.0
+
+
+>> Butter Baby
+  : 0.0
+
+
+>> Boozy Snickers Milkshake
+  : 0.0
+
+
+>> A1
+  : 0.0
+
+
+>> Abbey Martini
+  Martini: 0.7549999999999998
+out
+
+
+>> Absolutely Fabulous
+  : 0.0
+
+
+>> Ace
+  : 0.0
+
+
+>> Adam   Eve
+  : 0.0
+
+
+>> Addington
+  : 0.0
+
+
+>> Addison
+  : 0.0
+
+
+>> Adios Amigos Cocktail
+  : 0.0
+
+
+>> Gin Rickey
+  Jin Ricky: 0.7545526315789473
+out
+
+
+>> Salted Toffee Martini
+  : 0.0
+
+
+>> Hunter s Moon
+  Hunter: 0.7069999999999997
+out
+
+
+>> Zombie
+  : 0.0
+
+
+>> Bombay Cassis
+  : 0.0
+
+
+>> Rosemary Blue
+  : 0.0
+
+
+>> Empellón Cocina s Fat Washed Mezcal
+  : 0.0
+
+
+>> The Last Word
+  : 0.0
+
+
+>> French Negroni
+  : 0.0
+
+
+>> Pegu Club
+  : 0.0
+
+
+>> Corpse Reviver  2
+  : 0.0
+
+
+>> Boulevardier
+  : 0.0
+
+
+>> Greyhound
+  : 0.0
+
+
+>> Paloma
+  Paloma: 1.0
+ok
+
+
+>> Bijou
+  : 0.0
+
+
+>> Gimlet
+  Gimlet: 1.0
+ok
+
+
+>> Martinez 2
+  : 0.0
+
+
+>> Oatmeal Cookie
+  : 0.0
+
+
+>> Bahama Mama
+  Panama: 0.6539999999999997
+out
+
+
+>> Blue Hurricane
+  : 0.0
+
+match is 95/339 but real_match is 63/339
