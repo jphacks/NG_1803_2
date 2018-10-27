@@ -40,7 +40,7 @@ for i in range(len(json_dict)):
         "priority": True,
         "drink_name": data["name_JP"],
         "alcoholic": "Alcohol",
-        "cocktail_or_not": True,
+        "cocktail_or_not": True,    # 0,1（0原液、1カクテル：これはview_typeに対応する）にすべき
         "category": "カクテル",
         "base": data["base"],
         "place": '',
@@ -105,49 +105,3 @@ with open('format_data/suntoryCocktailRecipe_formatData_ja.csv', 'w', newline=''
         writer.writerow(format_data_list)
 # csv確認用
 # print (open('format_data/suntoryCocktailRecipe_formatData_ja.csv', 'r').read())
-
-# dbの構造
-# data_format = {
-#     "object_id": object_id,
-#     "drink_id": drink_id,
-#     "language": language,
-#     "priority": priority,
-#     "drink_name": drink_name,
-#     "alcoholic": alcoholic,
-#     "cocktail_or_not": cocktail_or_not,
-#     "category": category,
-#     "base": base,
-#     "place": place,
-#     "company": company,
-#     "glass": glass,
-#     "taste": taste,
-#     "color": color,
-#     "alcohol_percentage": alcohol_percentage,
-#     "method_category": method_category,
-#     "method_detail": method_detail,
-#     "description": description,
-#     "image": image,
-#     "ingredient1": ingredient1,
-#     "ingredient2": ingredient2,
-#     "ingredient3": ingredient3,
-#     "ingredient4": ingredient4,
-#     "ingredient5": ingredient5,
-#     "ingredient6": ingredient6,
-#     "ingredient7": ingredient7,
-#     "ingredient8": ingredient8,
-#     "ingredient9": ingredient9,
-#     "ingredient10": ingredient10,
-#     "measure1": measure1,
-#     "measure2": measure2,
-#     "measure3": measure3,
-#     "measure4": measure4,
-#     "measure5": measure5,
-#     "measure6": measure6,
-#     "measure7": measure7,
-#     "measure8": measure8,
-#     "measure9": measure9,
-#     "measure10": measure10,
-#     "source": source,
-#     "reference_url": reference_url,
-#     "date_modified": date_modified
-#     }
