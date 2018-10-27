@@ -18,7 +18,7 @@ pre_data_json = "adjust_format_data/suntoryCocktailRecipe_translationData_ja.jso
 
 # 言語設定
 pre_language = 'ja'
-post_language = 'en'
+post_language = 'zh'
 
 # 翻訳した言葉の一覧をjsonファイルに保存して、今後の翻訳速度を速めるのに使う
 if pre_language == 'ja' and post_language == 'en':
